@@ -18,6 +18,10 @@ function compare(a, b, key, dir) {
     av = severityOrder[av] ?? -1;
     bv = severityOrder[bv] ?? -1;
   }
+  if (key === "severity_score") {
+    av = Number(av ?? 0);
+    bv = Number(bv ?? 0);
+  }
   if (typeof av === "string") {
     const cmp = av.localeCompare(bv);
     return dir === "ascending" ? cmp : -cmp;
@@ -58,12 +62,14 @@ function render() {
   const frag = document.createDocumentFragment();
   for (const v of filtered) {
     const tr = document.createElement("tr");
+    const score = Number(v.severity_score ?? 0);
     tr.innerHTML = `
       <td>${v.type}</td>
       <td>${severityChip(v.severity)}</td>
       <td>${Number(v.strike).toFixed(2)}</td>
       <td>${Number(v.tenor).toFixed(3)}</td>
       <td>${Number(v.magnitude).toExponential(2)}</td>
+      <td>${score.toFixed(2)}</td>
       <td>${v.description}</td>
     `;
     frag.appendChild(tr);

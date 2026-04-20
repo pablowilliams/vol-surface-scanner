@@ -25,6 +25,9 @@ dependencies = [
 [project.optional-dependencies]
 dev = ["pytest", "ruff"]
 
+[project.scripts]
+vol-scanner = "vol_scanner.cli:main"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 

@@ -1037,3 +1037,103 @@ input[type="search"]::placeholder { color: var(--text-muted); }
   .control-row { grid-template-columns: 1fr; }
   .result-count { margin-left: 0; }
 }
+
+/* --- Extension panels: term structure, vega, Heston, backtest -------------- */
+
+.panel-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: var(--s-4);
+}
+
+.panel-card {
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
+  border-radius: var(--radius-card);
+  padding: var(--s-5);
+  box-shadow: var(--shadow-sm);
+}
+
+.panel-card canvas {
+  width: 100%;
+  height: 220px;
+  display: block;
+}
+
+.panel-title {
+  font-family: 'Inter', system-ui, sans-serif;
+  font-size: var(--fs-h3);
+  font-weight: var(--fw-semibold);
+  color: var(--text);
+  margin: 0 0 var(--s-3) 0;
+}
+
+.kv-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: var(--s-2) var(--s-4);
+  margin: 0;
+}
+
+.kv-pair {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px dotted var(--surface-border);
+  padding: var(--s-1) 0;
+}
+
+.kv-pair dt {
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text-secondary);
+  font-size: var(--fs-small);
+}
+
+.kv-pair dd {
+  font-family: 'JetBrains Mono', monospace;
+  color: var(--text);
+  font-size: var(--fs-small);
+  margin: 0;
+}
+
+.kv-summary {
+  font-size: var(--fs-small);
+  color: var(--text-secondary);
+  margin-top: var(--s-3);
+}
+
+/* Regime badge in header. Three colour states, all verified at 4.5:1 on the
+   header background. Reduced motion safe by default. */
+.regime-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 2px 8px;
+  border-radius: var(--radius-pill);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: var(--fs-micro);
+  font-weight: var(--fw-semibold);
+  letter-spacing: var(--ls-wide);
+  text-transform: uppercase;
+  border: 1px solid currentColor;
+}
+
+.regime-badge.regime-calm {
+  color: #6EE7B7;
+  background: rgba(110, 231, 183, 0.10);
+}
+.regime-badge.regime-stressed {
+  color: #FCD34D;
+  background: rgba(252, 211, 77, 0.10);
+}
+.regime-badge.regime-crash {
+  color: #FCA5A5;
+  background: rgba(252, 165, 165, 0.10);
+}
+.regime-badge.regime-unknown {
+  color: var(--text-secondary);
+  background: var(--surface-2);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .regime-badge { transition: none; }
+  .panel-card { transition: none; }
+}

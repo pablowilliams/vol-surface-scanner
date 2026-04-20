@@ -1,12 +1,13 @@
 {
   "meta": {
-    "generated": "2026-04-20T13:43:19Z",
+    "generated": "2026-04-20T16:35:07Z",
     "n_options": 250,
     "seed": 42,
     "forward": 100.0,
     "n_tenors": 10,
     "n_strikes": 25,
-    "quick_mode": false
+    "quick_mode": false,
+    "regime": "calm"
   },
   "surface": {
     "strikes": [
@@ -1171,7 +1172,8 @@
       "strike": 30.119421191220212,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0724 at t equals 0.24 to 0.0715 at t equals 0.46",
-      "magnitude": 0.0009127915862130048
+      "magnitude": 0.0009127915862130048,
+      "severity_score": 0.5318136614051425
     },
     {
       "type": "calendar",
@@ -1179,7 +1181,8 @@
       "strike": 30.119421191220212,
       "tenor": 0.8994444444444445,
       "description": "Total variance decreases from 0.0716 at t equals 0.68 to 0.0708 at t equals 0.90",
-      "magnitude": 0.000832821369259773
+      "magnitude": 0.000832821369259773,
+      "severity_score": 0.4852211483675198
     },
     {
       "type": "calendar",
@@ -1187,7 +1190,8 @@
       "strike": 30.119421191220212,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.2266 at t equals 1.78 to 0.0681 at t equals 2.00",
-      "magnitude": 0.15845995204015184
+      "magnitude": 0.15845995204015184,
+      "severity_score": 92.32246281999724
     },
     {
       "type": "calendar",
@@ -1195,7 +1199,8 @@
       "strike": 31.981902181630396,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0694 at t equals 0.24 to 0.0685 at t equals 0.46",
-      "magnitude": 0.000847132349799426
+      "magnitude": 0.000847132349799426,
+      "severity_score": 0.4935590593146027
     },
     {
       "type": "calendar",
@@ -1203,7 +1208,8 @@
       "strike": 31.981902181630396,
       "tenor": 0.8994444444444445,
       "description": "Total variance decreases from 0.0686 at t equals 0.68 to 0.0679 at t equals 0.90",
-      "magnitude": 0.0007576414539235549
+      "magnitude": 0.0007576414539235549,
+      "severity_score": 0.4414195767459417
     },
     {
       "type": "calendar",
@@ -1211,7 +1217,8 @@
       "strike": 31.981902181630396,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.2167 at t equals 1.78 to 0.0654 at t equals 2.00",
-      "magnitude": 0.15133021929648938
+      "magnitude": 0.15133021929648938,
+      "severity_score": 88.16851428177917
     },
     {
       "type": "calendar",
@@ -1219,7 +1226,8 @@
       "strike": 33.95955256449391,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0663 at t equals 0.24 to 0.0656 at t equals 0.46",
-      "magnitude": 0.0007816903741991732
+      "magnitude": 0.0007816903741991732,
+      "severity_score": 0.4554310384397094
     },
     {
       "type": "calendar",
@@ -1227,7 +1235,8 @@
       "strike": 33.95955256449391,
       "tenor": 0.8994444444444445,
       "description": "Total variance decreases from 0.0656 at t equals 0.68 to 0.0650 at t equals 0.90",
-      "magnitude": 0.0006826412386840702
+      "magnitude": 0.0006826412386840702,
+      "severity_score": 0.3977227025907318
     },
     {
       "type": "calendar",
@@ -1235,7 +1244,8 @@
       "strike": 33.95955256449391,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.2068 at t equals 1.78 to 0.0626 at t equals 2.00",
-      "magnitude": 0.14419952805197156
+      "magnitude": 0.14419952805197156,
+      "severity_score": 84.01400729861369
     },
     {
       "type": "calendar",
@@ -1243,7 +1253,8 @@
       "strike": 36.05949401730783,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0633 at t equals 0.24 to 0.0626 at t equals 0.46",
-      "magnitude": 0.0007165060341186025
+      "magnitude": 0.0007165060341186025,
+      "severity_score": 0.4174531220257901
     },
     {
       "type": "calendar",
@@ -1251,7 +1262,8 @@
       "strike": 36.05949401730783,
       "tenor": 0.8994444444444445,
       "description": "Total variance decreases from 0.0627 at t equals 0.68 to 0.0621 at t equals 0.90",
-      "magnitude": 0.0006078448430772293
+      "magnitude": 0.0006078448430772293,
+      "severity_score": 0.3541445785058991
     },
     {
       "type": "calendar",
@@ -1259,7 +1271,8 @@
       "strike": 36.05949401730783,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.1970 at t equals 1.78 to 0.0599 at t equals 2.00",
-      "magnitude": 0.13706780265626076
+      "magnitude": 0.13706780265626076,
+      "severity_score": 79.85889779485021
     },
     {
       "type": "calendar",
@@ -1267,7 +1280,8 @@
       "strike": 38.28928859751121,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0603 at t equals 0.24 to 0.0597 at t equals 0.46",
-      "magnitude": 0.0006516299697400044
+      "magnitude": 0.0006516299697400044,
+      "severity_score": 0.37965481422380865
     },
     {
       "type": "calendar",
@@ -1275,7 +1289,8 @@
       "strike": 38.28928859751121,
       "tenor": 0.8994444444444445,
       "description": "Total variance decreases from 0.0597 at t equals 0.68 to 0.0592 at t equals 0.90",
-      "magnitude": 0.0005332805186649414
+      "magnitude": 0.0005332805186649414,
+      "severity_score": 0.31070166451014486
     },
     {
       "type": "calendar",
@@ -1283,7 +1298,8 @@
       "strike": 38.28928859751121,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.1871 at t equals 1.78 to 0.0572 at t equals 2.00",
-      "magnitude": 0.12993497827985948
+      "magnitude": 0.12993497827985948,
+      "severity_score": 75.70314799931187
     },
     {
       "type": "calendar",
@@ -1291,7 +1307,8 @@
       "strike": 40.656965974059915,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0574 at t equals 0.24 to 0.0568 at t equals 0.46",
-      "magnitude": 0.0005871264253967043
+      "magnitude": 0.0005871264253967043,
+      "severity_score": 0.3420735452803257
     },
     {
       "type": "calendar",
@@ -1299,7 +1316,8 @@
       "strike": 40.656965974059915,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0568 at t equals 0.46 to 0.0567 at t equals 0.68",
-      "magnitude": 3.053571902108393e-05
+      "magnitude": 3.053571902108393e-05,
+      "severity_score": 0.01779082189354424
     },
     {
       "type": "calendar",
@@ -1307,7 +1325,8 @@
       "strike": 40.656965974059915,
       "tenor": 0.8994444444444445,
       "description": "Total variance decreases from 0.0567 at t equals 0.68 to 0.0563 at t equals 0.90",
-      "magnitude": 0.00045898143747333253
+      "magnitude": 0.00045898143747333253,
+      "severity_score": 0.26741328739935183
     },
     {
       "type": "calendar",
@@ -1315,7 +1334,8 @@
       "strike": 40.656965974059915,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.1773 at t equals 1.78 to 0.0545 at t equals 2.00",
-      "magnitude": 0.12280101637114499
+      "magnitude": 0.12280101637114499,
+      "severity_score": 71.54673545092436
     },
     {
       "type": "calendar",
@@ -1323,7 +1343,8 @@
       "strike": 43.17105234290797,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0544 at t equals 0.24 to 0.0539 at t equals 0.46",
-      "magnitude": 0.0005230779138241728
+      "magnitude": 0.0005230779138241728,
+      "severity_score": 0.30475738903895
     },
     {
       "type": "calendar",
@@ -1331,7 +1352,8 @@
       "strike": 43.17105234290797,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0539 at t equals 0.46 to 0.0538 at t equals 0.68",
-      "magnitude": 6.486981004720505e-05
+      "magnitude": 6.486981004720505e-05,
+      "severity_score": 0.03779466388268151
     },
     {
       "type": "calendar",
@@ -1339,7 +1361,8 @@
       "strike": 43.17105234290797,
       "tenor": 0.8994444444444445,
       "description": "Total variance decreases from 0.0538 at t equals 0.68 to 0.0534 at t equals 0.90",
-      "magnitude": 0.00038498660512414906
+      "magnitude": 0.00038498660512414906,
+      "severity_score": 0.22430217275823147
     },
     {
       "type": "calendar",
@@ -1347,7 +1370,8 @@
       "strike": 43.17105234290797,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.1675 at t equals 1.78 to 0.0518 at t equals 2.00",
-      "magnitude": 0.11566593246098264
+      "magnitude": 0.11566593246098264,
+      "severity_score": 67.38966919833197
     },
     {
       "type": "calendar",
@@ -1355,7 +1379,8 @@
       "strike": 45.84060113052235,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0515 at t equals 0.24 to 0.0510 at t equals 0.46",
-      "magnitude": 0.0004595918234006763
+      "magnitude": 0.0004595918234006763,
+      "severity_score": 0.26776891247280105
     },
     {
       "type": "calendar",
@@ -1363,7 +1388,8 @@
       "strike": 45.84060113052235,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0510 at t equals 0.46 to 0.0509 at t equals 0.68",
-      "magnitude": 9.891151614747212e-05
+      "magnitude": 9.891151614747212e-05,
+      "severity_score": 0.057628155596567865
     },
     {
       "type": "calendar",
@@ -1371,7 +1397,8 @@
       "strike": 45.84060113052235,
       "tenor": 0.8994444444444445,
       "description": "Total variance decreases from 0.0509 at t equals 0.68 to 0.0506 at t equals 0.90",
-      "magnitude": 0.00031134188264385354
+      "magnitude": 0.00031134188264385354,
+      "severity_score": 0.18139504029012812
     },
     {
       "type": "calendar",
@@ -1379,7 +1406,8 @@
       "strike": 45.84060113052235,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.1577 at t equals 1.78 to 0.0492 at t equals 2.00",
-      "magnitude": 0.10852984621538131
+      "magnitude": 0.10852984621538131,
+      "severity_score": 63.23201896174169
     },
     {
       "type": "calendar",
@@ -1387,7 +1415,8 @@
       "strike": 48.67522559599717,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0485 at t equals 0.24 to 0.0481 at t equals 0.46",
-      "magnitude": 0.0003968099085391516
+      "magnitude": 0.0003968099085391516,
+      "severity_score": 0.23119070500809943
     },
     {
       "type": "calendar",
@@ -1395,7 +1424,8 @@
       "strike": 48.67522559599717,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0481 at t equals 0.46 to 0.0480 at t equals 0.68",
-      "magnitude": 0.00013259360803274944
+      "magnitude": 0.00013259360803274944,
+      "severity_score": 0.0772521276837884
     },
     {
       "type": "calendar",
@@ -1403,7 +1433,8 @@
       "strike": 48.67522559599717,
       "tenor": 0.8994444444444445,
       "description": "Total variance decreases from 0.0480 at t equals 0.68 to 0.0478 at t equals 0.90",
-      "magnitude": 0.00023810106121058272
+      "magnitude": 0.00023810106121058272,
+      "severity_score": 0.13872322998965642
     },
     {
       "type": "calendar",
@@ -1411,7 +1442,8 @@
       "strike": 48.67522559599717,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0481 at t equals 1.12 to 0.0481 at t equals 1.34",
-      "magnitude": 1.6742671902728046e-05
+      "magnitude": 1.6742671902728046e-05,
+      "severity_score": 0.009754671034201464
     },
     {
       "type": "calendar",
@@ -1419,7 +1451,8 @@
       "strike": 48.67522559599717,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.1479 at t equals 1.78 to 0.0465 at t equals 2.00",
-      "magnitude": 0.1013930723385973
+      "magnitude": 0.1013930723385973,
+      "severity_score": 59.07396809519109
     },
     {
       "type": "calendar",
@@ -1427,7 +1460,8 @@
       "strike": 51.68513344916993,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0456 at t equals 0.24 to 0.0453 at t equals 0.46",
-      "magnitude": 0.00033492210264766953
+      "magnitude": 0.00033492210264766953,
+      "severity_score": 0.19513342627700533
     },
     {
       "type": "calendar",
@@ -1435,7 +1469,8 @@
       "strike": 51.68513344916993,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0453 at t equals 0.46 to 0.0451 at t equals 0.68",
-      "magnitude": 0.00016582778957837524
+      "magnitude": 0.00016582778957837524,
+      "severity_score": 0.09661513676334194
     },
     {
       "type": "calendar",
@@ -1443,7 +1478,8 @@
       "strike": 51.68513344916993,
       "tenor": 0.8994444444444445,
       "description": "Total variance decreases from 0.0451 at t equals 0.68 to 0.0450 at t equals 0.90",
-      "magnitude": 0.0001653268610561781
+      "magnitude": 0.0001653268610561781,
+      "severity_score": 0.09632328412631537
     },
     {
       "type": "calendar",
@@ -1451,7 +1487,8 @@
       "strike": 51.68513344916993,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0454 at t equals 1.12 to 0.0453 at t equals 1.34",
-      "magnitude": 8.825714727318107e-05
+      "magnitude": 8.825714727318107e-05,
+      "severity_score": 0.05142067186580143
     },
     {
       "type": "calendar",
@@ -1459,7 +1496,8 @@
       "strike": 51.68513344916993,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.1382 at t equals 1.78 to 0.0439 at t equals 2.00",
-      "magnitude": 0.09425628821482003
+      "magnitude": 0.09425628821482003,
+      "severity_score": 54.91591125850329
     },
     {
       "type": "calendar",
@@ -1467,7 +1505,8 @@
       "strike": 54.88116360940264,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0428 at t equals 0.24 to 0.0425 at t equals 0.46",
-      "magnitude": 0.00027418685286053485
+      "magnitude": 0.00027418685286053485,
+      "severity_score": 0.15974765360609613
     },
     {
       "type": "calendar",
@@ -1475,7 +1514,8 @@
       "strike": 54.88116360940264,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0425 at t equals 0.46 to 0.0423 at t equals 0.68",
-      "magnitude": 0.00019849641390614486
+      "magnitude": 0.00019849641390614486,
+      "severity_score": 0.11564863902085075
     },
     {
       "type": "calendar",
@@ -1483,7 +1523,8 @@
       "strike": 54.88116360940264,
       "tenor": 0.8994444444444445,
       "description": "Total variance decreases from 0.0423 at t equals 0.68 to 0.0422 at t equals 0.90",
-      "magnitude": 9.309160492618207e-05
+      "magnitude": 9.309160492618207e-05,
+      "severity_score": 0.05423733961798491
     },
     {
       "type": "calendar",
@@ -1491,7 +1532,8 @@
       "strike": 54.88116360940264,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0426 at t equals 1.12 to 0.0424 at t equals 1.34",
-      "magnitude": 0.00015720985092301104
+      "magnitude": 0.00015720985092301104,
+      "severity_score": 0.09159412476093216
     },
     {
       "type": "calendar",
@@ -1499,7 +1541,8 @@
       "strike": 54.88116360940264,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.1285 at t equals 1.78 to 0.0414 at t equals 2.00",
-      "magnitude": 0.08712084958960287
+      "magnitude": 0.08712084958960287,
+      "severity_score": 50.758638340649185
     },
     {
       "type": "calendar",
@@ -1507,7 +1550,8 @@
       "strike": 58.274825237398964,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0400 at t equals 0.24 to 0.0398 at t equals 0.46",
-      "magnitude": 0.00021496128116325203
+      "magnitude": 0.00021496128116325203,
+      "severity_score": 0.12524145459102898
     },
     {
       "type": "calendar",
@@ -1515,7 +1559,8 @@
       "strike": 58.274825237398964,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0398 at t equals 0.46 to 0.0396 at t equals 0.68",
-      "magnitude": 0.00023044042207783638
+      "magnitude": 0.00023044042207783638,
+      "severity_score": 0.13425996301017898
     },
     {
       "type": "calendar",
@@ -1523,7 +1568,8 @@
       "strike": 58.274825237398964,
       "tenor": 0.8994444444444445,
       "description": "Total variance decreases from 0.0396 at t equals 0.68 to 0.0395 at t equals 0.90",
-      "magnitude": 2.1477151974862163e-05
+      "magnitude": 2.1477151974862163e-05,
+      "severity_score": 0.012513089516625745
     },
     {
       "type": "calendar",
@@ -1531,7 +1577,8 @@
       "strike": 58.274825237398964,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0399 at t equals 1.12 to 0.0396 at t equals 1.34",
-      "magnitude": 0.00022281130525775295
+      "magnitude": 0.00022281130525775295,
+      "severity_score": 0.12981506166505488
     },
     {
       "type": "calendar",
@@ -1539,7 +1586,8 @@
       "strike": 58.274825237398964,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.1188 at t equals 1.78 to 0.0388 at t equals 2.00",
-      "magnitude": 0.07998940056802557
+      "magnitude": 0.07998940056802557,
+      "severity_score": 46.60368985890001
     },
     {
       "type": "calendar",
@@ -1547,7 +1595,8 @@
       "strike": 61.878339180614084,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0373 at t equals 0.24 to 0.0371 at t equals 0.46",
-      "magnitude": 0.00015774590995776272
+      "magnitude": 0.00015774590995776272,
+      "severity_score": 0.09190644525370024
     },
     {
       "type": "calendar",
@@ -1555,7 +1604,8 @@
       "strike": 61.878339180614084,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0371 at t equals 0.46 to 0.0368 at t equals 0.68",
-      "magnitude": 0.000261441743475338
+      "magnitude": 0.000261441743475338,
+      "severity_score": 0.15232205570452992
     },
     {
       "type": "calendar",
@@ -1563,7 +1613,8 @@
       "strike": 61.878339180614084,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0372 at t equals 1.12 to 0.0369 at t equals 1.34",
-      "magnitude": 0.00028396405717136947
+      "magnitude": 0.00028396405717136947,
+      "severity_score": 0.16544408080961961
     },
     {
       "type": "calendar",
@@ -1571,7 +1622,8 @@
       "strike": 61.878339180614084,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.1092 at t equals 1.78 to 0.0364 at t equals 2.00",
-      "magnitude": 0.07286708841071812
+      "magnitude": 0.07286708841071812,
+      "severity_score": 42.454064727315874
     },
     {
       "type": "calendar",
@@ -1579,7 +1631,8 @@
       "strike": 65.70468198150569,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0346 at t equals 0.24 to 0.0345 at t equals 0.46",
-      "magnitude": 0.00010324996822196064
+      "magnitude": 0.00010324996822196064,
+      "severity_score": 0.0601558389335022
     },
     {
       "type": "calendar",
@@ -1587,7 +1640,8 @@
       "strike": 65.70468198150569,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0345 at t equals 0.46 to 0.0342 at t equals 0.68",
-      "magnitude": 0.0002911978663042228
+      "magnitude": 0.0002911978663042228,
+      "severity_score": 0.16965866667889706
     },
     {
       "type": "calendar",
@@ -1595,7 +1649,8 @@
       "strike": 65.70468198150569,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0346 at t equals 1.12 to 0.0343 at t equals 1.34",
-      "magnitude": 0.00033913248423515785
+      "magnitude": 0.00033913248423515785,
+      "severity_score": 0.19758649276203363
     },
     {
       "type": "calendar",
@@ -1603,7 +1658,8 @@
       "strike": 65.70468198150569,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0997 at t equals 1.78 to 0.0340 at t equals 2.00",
-      "magnitude": 0.06576406509166503
+      "magnitude": 0.06576406509166503,
+      "severity_score": 38.31567772265057
     },
     {
       "type": "calendar",
@@ -1611,7 +1667,8 @@
       "strike": 69.76763260710311,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0320 at t equals 0.24 to 0.0320 at t equals 0.46",
-      "magnitude": 5.2482391410035856e-05
+      "magnitude": 5.2482391410035856e-05,
+      "severity_score": 0.03057746495108011
     },
     {
       "type": "calendar",
@@ -1619,7 +1676,8 @@
       "strike": 69.76763260710311,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0320 at t equals 0.46 to 0.0317 at t equals 0.68",
-      "magnitude": 0.00031928632052618394
+      "magnitude": 0.00031928632052618394,
+      "severity_score": 0.18602365503836038
     },
     {
       "type": "calendar",
@@ -1627,7 +1685,8 @@
       "strike": 69.76763260710311,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0321 at t equals 1.12 to 0.0318 at t equals 1.34",
-      "magnitude": 0.00038617393155491314
+      "magnitude": 0.00038617393155491314,
+      "severity_score": 0.22499393682131563
     },
     {
       "type": "calendar",
@@ -1635,7 +1694,8 @@
       "strike": 69.76763260710311,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0904 at t equals 1.78 to 0.0317 at t equals 2.00",
-      "magnitude": 0.05870081975238816
+      "magnitude": 0.05870081975238816,
+      "severity_score": 34.200466296493666
     },
     {
       "type": "calendar",
@@ -1643,7 +1703,8 @@
       "strike": 74.08182206817179,
       "tenor": 0.2391111111111111,
       "description": "Total variance decreases from 0.0296 at t equals 0.02 to 0.0296 at t equals 0.24",
-      "magnitude": 2.196705080691197e-06
+      "magnitude": 2.196705080691197e-06,
+      "severity_score": 0.001279851599899662
     },
     {
       "type": "calendar",
@@ -1651,7 +1712,8 @@
       "strike": 74.08182206817179,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0296 at t equals 0.24 to 0.0296 at t equals 0.46",
-      "magnitude": 6.864292505438796e-06
+      "magnitude": 6.864292505438796e-06,
+      "severity_score": 0.0039992968662415085
     },
     {
       "type": "calendar",
@@ -1659,7 +1721,8 @@
       "strike": 74.08182206817179,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0296 at t equals 0.46 to 0.0293 at t equals 0.68",
-      "magnitude": 0.0003451191839170843
+      "magnitude": 0.0003451191839170843,
+      "severity_score": 0.20107448358673802
     },
     {
       "type": "calendar",
@@ -1667,7 +1730,8 @@
       "strike": 74.08182206817179,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0298 at t equals 1.12 to 0.0294 at t equals 1.34",
-      "magnitude": 0.0004221611141750868
+      "magnitude": 0.0004221611141750868,
+      "severity_score": 0.24596090851777033
     },
     {
       "type": "calendar",
@@ -1675,7 +1739,8 @@
       "strike": 74.08182206817179,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0812 at t equals 1.78 to 0.0295 at t equals 2.00",
-      "magnitude": 0.051719897324338876
+      "magnitude": 0.051719897324338876,
+      "severity_score": 30.133218117915664
     },
     {
       "type": "calendar",
@@ -1683,7 +1748,8 @@
       "strike": 78.66278610665535,
       "tenor": 0.2391111111111111,
       "description": "Total variance decreases from 0.0275 at t equals 0.02 to 0.0274 at t equals 0.24",
-      "magnitude": 3.249677395239514e-05
+      "magnitude": 3.249677395239514e-05,
+      "severity_score": 0.0189333782218339
     },
     {
       "type": "calendar",
@@ -1691,7 +1757,8 @@
       "strike": 78.66278610665535,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0275 at t equals 0.46 to 0.0271 at t equals 0.68",
-      "magnitude": 0.00036789681658219026
+      "magnitude": 0.00036789681658219026,
+      "severity_score": 0.21434526347640348
     },
     {
       "type": "calendar",
@@ -1699,7 +1766,8 @@
       "strike": 78.66278610665535,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0276 at t equals 1.12 to 0.0272 at t equals 1.34",
-      "magnitude": 0.00044331472356298057
+      "magnitude": 0.00044331472356298057,
+      "severity_score": 0.25828549457928646
     },
     {
       "type": "calendar",
@@ -1707,7 +1775,8 @@
       "strike": 78.66278610665535,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0725 at t equals 1.78 to 0.0275 at t equals 2.00",
-      "magnitude": 0.04491199645520949
+      "magnitude": 0.04491199645520949,
+      "severity_score": 26.16677633385426
     },
     {
       "type": "calendar",
@@ -1715,7 +1784,8 @@
       "strike": 83.52702114112721,
       "tenor": 0.2391111111111111,
       "description": "Total variance decreases from 0.0256 at t equals 0.02 to 0.0255 at t equals 0.24",
-      "magnitude": 5.588368491506526e-05
+      "magnitude": 5.588368491506526e-05,
+      "severity_score": 0.03255913785401275
     },
     {
       "type": "calendar",
@@ -1723,7 +1793,8 @@
       "strike": 83.52702114112721,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0256 at t equals 0.46 to 0.0252 at t equals 0.68",
-      "magnitude": 0.00038659329590671684
+      "magnitude": 0.00038659329590671684,
+      "severity_score": 0.2252382682708646
     },
     {
       "type": "calendar",
@@ -1731,7 +1802,8 @@
       "strike": 83.52702114112721,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0257 at t equals 1.12 to 0.0253 at t equals 1.34",
-      "magnitude": 0.00044534804418332186
+      "magnitude": 0.00044534804418332186,
+      "severity_score": 0.2594701545830016
     },
     {
       "type": "calendar",
@@ -1739,7 +1811,8 @@
       "strike": 83.52702114112721,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0643 at t equals 1.78 to 0.0258 at t equals 2.00",
-      "magnitude": 0.03847177844691761
+      "magnitude": 0.03847177844691761,
+      "severity_score": 22.414555157663663
     },
     {
       "type": "calendar",
@@ -1747,7 +1820,8 @@
       "strike": 88.69204367171577,
       "tenor": 0.2391111111111111,
       "description": "Total variance decreases from 0.0240 at t equals 0.02 to 0.0239 at t equals 0.24",
-      "magnitude": 7.057456221908759e-05
+      "magnitude": 7.057456221908759e-05,
+      "severity_score": 0.04111838551395192
     },
     {
       "type": "calendar",
@@ -1755,7 +1829,8 @@
       "strike": 88.69204367171577,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0240 at t equals 0.46 to 0.0236 at t equals 0.68",
-      "magnitude": 0.00040004416796783973
+      "magnitude": 0.00040004416796783973,
+      "severity_score": 0.23307505996347405
     },
     {
       "type": "calendar",
@@ -1763,7 +1838,8 @@
       "strike": 88.69204367171577,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0241 at t equals 1.12 to 0.0237 at t equals 1.34",
-      "magnitude": 0.00042470744521514586
+      "magnitude": 0.00042470744521514586,
+      "severity_score": 0.24744446035371742
     },
     {
       "type": "calendar",
@@ -1771,7 +1847,8 @@
       "strike": 88.69204367171577,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0572 at t equals 1.78 to 0.0244 at t equals 2.00",
-      "magnitude": 0.03279355190608854
+      "magnitude": 0.03279355190608854,
+      "severity_score": 19.106287977534894
     },
     {
       "type": "calendar",
@@ -1779,7 +1856,8 @@
       "strike": 94.17645335842487,
       "tenor": 0.2391111111111111,
       "description": "Total variance decreases from 0.0228 at t equals 0.02 to 0.0227 at t equals 0.24",
-      "magnitude": 7.536139172757e-05
+      "magnitude": 7.536139172757e-05,
+      "severity_score": 0.04390730399860824
     },
     {
       "type": "calendar",
@@ -1787,7 +1865,8 @@
       "strike": 94.17645335842487,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0228 at t equals 0.46 to 0.0224 at t equals 0.68",
-      "magnitude": 0.00040721721439511416
+      "magnitude": 0.00040721721439511416,
+      "severity_score": 0.23725424406369616
     },
     {
       "type": "calendar",
@@ -1795,7 +1874,8 @@
       "strike": 94.17645335842487,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0229 at t equals 1.12 to 0.0226 at t equals 1.34",
-      "magnitude": 0.00038083742289207745
+      "magnitude": 0.00038083742289207745,
+      "severity_score": 0.22188476244463526
     },
     {
       "type": "calendar",
@@ -1803,7 +1883,8 @@
       "strike": 94.17645335842487,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0519 at t equals 1.78 to 0.0234 at t equals 2.00",
-      "magnitude": 0.028509468968681798
+      "magnitude": 0.028509468968681798,
+      "severity_score": 16.610281367572654
     },
     {
       "type": "calendar",
@@ -1811,7 +1892,8 @@
       "strike": 100.0,
       "tenor": 0.2391111111111111,
       "description": "Total variance decreases from 0.0221 at t equals 0.02 to 0.0220 at t equals 0.24",
-      "magnitude": 7.036390633308187e-05
+      "magnitude": 7.036390633308187e-05,
+      "severity_score": 0.04099565248296723
     },
     {
       "type": "calendar",
@@ -1819,7 +1901,8 @@
       "strike": 100.0,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0221 at t equals 0.46 to 0.0217 at t equals 0.68",
-      "magnitude": 0.00040762177000004673
+      "magnitude": 0.00040762177000004673,
+      "severity_score": 0.23748994759202705
     },
     {
       "type": "calendar",
@@ -1827,7 +1910,8 @@
       "strike": 100.0,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0222 at t equals 0.90 to 0.0222 at t equals 1.12",
-      "magnitude": 3.417377155375337e-05
+      "magnitude": 3.417377155375337e-05,
+      "severity_score": 0.019910436126416558
     },
     {
       "type": "calendar",
@@ -1835,7 +1919,8 @@
       "strike": 100.0,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0222 at t equals 1.12 to 0.0219 at t equals 1.34",
-      "magnitude": 0.00031803599062692894
+      "magnitude": 0.00031803599062692894,
+      "severity_score": 0.18529518368550116
     },
     {
       "type": "calendar",
@@ -1843,7 +1928,8 @@
       "strike": 100.0,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0489 at t equals 1.78 to 0.0228 at t equals 2.00",
-      "magnitude": 0.026127595596568055
+      "magnitude": 0.026127595596568055,
+      "severity_score": 15.22254640357877
     },
     {
       "type": "calendar",
@@ -1851,7 +1937,8 @@
       "strike": 106.18365465453596,
       "tenor": 0.2391111111111111,
       "description": "Total variance decreases from 0.0219 at t equals 0.02 to 0.0218 at t equals 0.24",
-      "magnitude": 5.7169129637331395e-05
+      "magnitude": 5.7169129637331395e-05,
+      "severity_score": 0.03330806792151969
     },
     {
       "type": "calendar",
@@ -1859,7 +1946,8 @@
       "strike": 106.18365465453596,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0218 at t equals 0.46 to 0.0214 at t equals 0.68",
-      "magnitude": 0.0004015704756185484
+      "magnitude": 0.0004015704756185484,
+      "severity_score": 0.2339643223892176
     },
     {
       "type": "calendar",
@@ -1867,7 +1955,8 @@
       "strike": 106.18365465453596,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0220 at t equals 0.90 to 0.0219 at t equals 1.12",
-      "magnitude": 9.661741771963342e-05
+      "magnitude": 9.661741771963342e-05,
+      "severity_score": 0.056291560361729685
     },
     {
       "type": "calendar",
@@ -1875,7 +1964,8 @@
       "strike": 106.18365465453596,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0219 at t equals 1.12 to 0.0217 at t equals 1.34",
-      "magnitude": 0.00024429361738705774
+      "magnitude": 0.00024429361738705774,
+      "severity_score": 0.14233115760797663
     },
     {
       "type": "calendar",
@@ -1883,7 +1973,8 @@
       "strike": 106.18365465453596,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0481 at t equals 1.78 to 0.0226 at t equals 2.00",
-      "magnitude": 0.025446221784233357
+      "magnitude": 0.025446221784233357,
+      "severity_score": 14.825562133131369
     },
     {
       "type": "calendar",
@@ -1891,7 +1982,8 @@
       "strike": 112.74968515793755,
       "tenor": 0.2391111111111111,
       "description": "Total variance decreases from 0.0220 at t equals 0.02 to 0.0220 at t equals 0.24",
-      "magnitude": 3.805020885326582e-05
+      "magnitude": 3.805020885326582e-05,
+      "severity_score": 0.022168938882795065
     },
     {
       "type": "calendar",
@@ -1899,7 +1991,8 @@
       "strike": 112.74968515793755,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0220 at t equals 0.46 to 0.0216 at t equals 0.68",
-      "magnitude": 0.000390026679101603
+      "magnitude": 0.000390026679101603,
+      "severity_score": 0.2272386373753331
     },
     {
       "type": "calendar",
@@ -1907,7 +2000,8 @@
       "strike": 112.74968515793755,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0222 at t equals 0.90 to 0.0221 at t equals 1.12",
-      "magnitude": 0.00014771538366915513
+      "magnitude": 0.00014771538366915513,
+      "severity_score": 0.08606242675929648
     },
     {
       "type": "calendar",
@@ -1915,7 +2009,8 @@
       "strike": 112.74968515793755,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0221 at t equals 1.12 to 0.0219 at t equals 1.34",
-      "magnitude": 0.00016731230552374798
+      "magnitude": 0.00016731230552374798,
+      "severity_score": 0.09748005036711256
     },
     {
       "type": "calendar",
@@ -1923,7 +2018,8 @@
       "strike": 112.74968515793755,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0486 at t equals 1.78 to 0.0228 at t equals 2.00",
-      "magnitude": 0.025802039697116835
+      "magnitude": 0.025802039697116835,
+      "severity_score": 15.032869945672862
     },
     {
       "type": "calendar",
@@ -1931,7 +2027,8 @@
       "strike": 119.72173631218101,
       "tenor": 0.2391111111111111,
       "description": "Total variance decreases from 0.0226 at t equals 0.02 to 0.0226 at t equals 0.24",
-      "magnitude": 1.5021601873270451e-05
+      "magnitude": 1.5021601873270451e-05,
+      "severity_score": 0.00875193550538502
     },
     {
       "type": "calendar",
@@ -1939,7 +2036,8 @@
       "strike": 119.72173631218101,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0226 at t equals 0.24 to 0.0225 at t equals 0.46",
-      "magnitude": 8.343083873957324e-06
+      "magnitude": 8.343083873957324e-06,
+      "severity_score": 0.00486087519805869
     },
     {
       "type": "calendar",
@@ -1947,7 +2045,8 @@
       "strike": 119.72173631218101,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0225 at t equals 0.46 to 0.0222 at t equals 0.68",
-      "magnitude": 0.00037418423660843733
+      "magnitude": 0.00037418423660843733,
+      "severity_score": 0.21800846098551174
     },
     {
       "type": "calendar",
@@ -1955,7 +2054,8 @@
       "strike": 119.72173631218101,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0228 at t equals 0.90 to 0.0226 at t equals 1.12",
-      "magnitude": 0.0001860382746892951
+      "magnitude": 0.0001860382746892951,
+      "severity_score": 0.10839023663055769
     },
     {
       "type": "calendar",
@@ -1963,7 +2063,8 @@
       "strike": 119.72173631218101,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0226 at t equals 1.12 to 0.0225 at t equals 1.34",
-      "magnitude": 9.160094242628009e-05
+      "magnitude": 9.160094242628009e-05,
+      "severity_score": 0.053368844888228247
     },
     {
       "type": "calendar",
@@ -1971,7 +2072,8 @@
       "strike": 119.72173631218101,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0225 at t equals 1.34 to 0.0224 at t equals 1.56",
-      "magnitude": 7.972024092878921e-05
+      "magnitude": 7.972024092878921e-05,
+      "severity_score": 0.046446871177169335
     },
     {
       "type": "calendar",
@@ -1979,7 +2081,8 @@
       "strike": 119.72173631218101,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0500 at t equals 1.78 to 0.0234 at t equals 2.00",
-      "magnitude": 0.026664762873460708
+      "magnitude": 0.026664762873460708,
+      "severity_score": 15.535512584058713
     },
     {
       "type": "calendar",
@@ -1987,7 +2090,8 @@
       "strike": 127.12491503214048,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0234 at t equals 0.24 to 0.0233 at t equals 0.46",
-      "magnitude": 4.281849591788317e-05
+      "magnitude": 4.281849591788317e-05,
+      "severity_score": 0.024947054107307205
     },
     {
       "type": "calendar",
@@ -1995,7 +2099,8 @@
       "strike": 127.12491503214048,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0233 at t equals 0.46 to 0.0230 at t equals 0.68",
-      "magnitude": 0.00035513004082591074
+      "magnitude": 0.00035513004082591074,
+      "severity_score": 0.20690704224185646
     },
     {
       "type": "calendar",
@@ -2003,7 +2108,8 @@
       "strike": 127.12491503214048,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0236 at t equals 0.90 to 0.0234 at t equals 1.12",
-      "magnitude": 0.00021309763220297984
+      "magnitude": 0.00021309763220297984,
+      "severity_score": 0.12415564925265138
     },
     {
       "type": "calendar",
@@ -2011,7 +2117,8 @@
       "strike": 127.12491503214048,
       "tenor": 1.3396666666666666,
       "description": "Total variance decreases from 0.0234 at t equals 1.12 to 0.0234 at t equals 1.34",
-      "magnitude": 1.8585857943613504e-05
+      "magnitude": 1.8585857943613504e-05,
+      "severity_score": 0.010828554198616832
     },
     {
       "type": "calendar",
@@ -2019,7 +2126,8 @@
       "strike": 127.12491503214048,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0234 at t equals 1.34 to 0.0231 at t equals 1.56",
-      "magnitude": 0.0002641851549333926
+      "magnitude": 0.0002641851549333926,
+      "severity_score": 0.15392043118726403
     },
     {
       "type": "calendar",
@@ -2027,7 +2135,8 @@
       "strike": 127.12491503214048,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0519 at t equals 1.78 to 0.0241 at t equals 2.00",
-      "magnitude": 0.02775433585213176
+      "magnitude": 0.02775433585213176,
+      "severity_score": 16.170323206666644
     },
     {
       "type": "calendar",
@@ -2035,7 +2144,8 @@
       "strike": 134.9858807576003,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0244 at t equals 0.24 to 0.0243 at t equals 0.46",
-      "magnitude": 7.878981308821753e-05
+      "magnitude": 7.878981308821753e-05,
+      "severity_score": 0.04590478222275578
     },
     {
       "type": "calendar",
@@ -2043,7 +2153,8 @@
       "strike": 134.9858807576003,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0243 at t equals 0.46 to 0.0240 at t equals 0.68",
-      "magnitude": 0.00033371648369436013
+      "magnitude": 0.00033371648369436013,
+      "severity_score": 0.19443100456376522
     },
     {
       "type": "calendar",
@@ -2051,7 +2162,8 @@
       "strike": 134.9858807576003,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0246 at t equals 0.90 to 0.0244 at t equals 1.12",
-      "magnitude": 0.00023142884321361926
+      "magnitude": 0.00023142884321361926,
+      "severity_score": 0.1348358402105942
     },
     {
       "type": "calendar",
@@ -2059,7 +2171,8 @@
       "strike": 134.9858807576003,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0244 at t equals 1.34 to 0.0240 at t equals 1.56",
-      "magnitude": 0.00042963463633716517
+      "magnitude": 0.00042963463633716517,
+      "severity_score": 0.2503151567871884
     },
     {
       "type": "calendar",
@@ -2067,7 +2180,8 @@
       "strike": 134.9858807576003,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0540 at t equals 1.78 to 0.0251 at t equals 2.00",
-      "magnitude": 0.02894234423362598
+      "magnitude": 0.02894234423362598,
+      "severity_score": 16.86248459014702
     },
     {
       "type": "calendar",
@@ -2075,7 +2189,8 @@
       "strike": 143.33294145603404,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0256 at t equals 0.24 to 0.0255 at t equals 0.46",
-      "magnitude": 0.00011573918093562424
+      "magnitude": 0.00011573918093562424,
+      "severity_score": 0.06743234546757006
     },
     {
       "type": "calendar",
@@ -2083,7 +2198,8 @@
       "strike": 143.33294145603404,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0255 at t equals 0.46 to 0.0252 at t equals 0.68",
-      "magnitude": 0.00031056768553408554
+      "magnitude": 0.00031056768553408554,
+      "severity_score": 0.1809439750022641
     },
     {
       "type": "calendar",
@@ -2091,7 +2207,8 @@
       "strike": 143.33294145603404,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0258 at t equals 0.90 to 0.0255 at t equals 1.12",
-      "magnitude": 0.00024341850804881007
+      "magnitude": 0.00024341850804881007,
+      "severity_score": 0.14182129850286135
     },
     {
       "type": "calendar",
@@ -2099,7 +2216,8 @@
       "strike": 143.33294145603404,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0256 at t equals 1.34 to 0.0251 at t equals 1.56",
-      "magnitude": 0.000579861771727145
+      "magnitude": 0.000579861771727145,
+      "severity_score": 0.3378409886647708
     },
     {
       "type": "calendar",
@@ -2107,7 +2225,8 @@
       "strike": 143.33294145603404,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0564 at t equals 1.78 to 0.0262 at t equals 2.00",
-      "magnitude": 0.03017189224451617
+      "magnitude": 0.03017189224451617,
+      "severity_score": 17.5788479302801
     },
     {
       "type": "calendar",
@@ -2115,7 +2234,8 @@
       "strike": 152.19615556186338,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0269 at t equals 0.24 to 0.0267 at t equals 0.46",
-      "magnitude": 0.00015338938198380253
+      "magnitude": 0.00015338938198380253,
+      "severity_score": 0.08936823047626358
     },
     {
       "type": "calendar",
@@ -2123,7 +2243,8 @@
       "strike": 152.19615556186338,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0267 at t equals 0.46 to 0.0265 at t equals 0.68",
-      "magnitude": 0.0002861291434841165
+      "magnitude": 0.0002861291434841165,
+      "severity_score": 0.16670551057807
     },
     {
       "type": "calendar",
@@ -2131,7 +2252,8 @@
       "strike": 152.19615556186338,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0270 at t equals 0.90 to 0.0268 at t equals 1.12",
-      "magnitude": 0.000250922678477445
+      "magnitude": 0.000250922678477445,
+      "severity_score": 0.1461934031669914
     },
     {
       "type": "calendar",
@@ -2139,7 +2261,8 @@
       "strike": 152.19615556186338,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0269 at t equals 1.34 to 0.0262 at t equals 1.56",
-      "magnitude": 0.0007185355807801039
+      "magnitude": 0.0007185355807801039,
+      "severity_score": 0.4186355832330889
     },
     {
       "type": "calendar",
@@ -2147,7 +2270,8 @@
       "strike": 152.19615556186338,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0588 at t equals 1.78 to 0.0274 at t equals 2.00",
-      "magnitude": 0.031417751096558325
+      "magnitude": 0.031417751096558325,
+      "severity_score": 18.304714346783125
     },
     {
       "type": "calendar",
@@ -2155,7 +2279,8 @@
       "strike": 161.60744021928934,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0283 at t equals 0.24 to 0.0281 at t equals 0.46",
-      "magnitude": 0.00019157766073453486
+      "magnitude": 0.00019157766073453486,
+      "severity_score": 0.11161761210065549
     },
     {
       "type": "calendar",
@@ -2163,7 +2288,8 @@
       "strike": 161.60744021928934,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0281 at t equals 0.46 to 0.0278 at t equals 0.68",
-      "magnitude": 0.0002607178426753086
+      "magnitude": 0.0002607178426753086,
+      "severity_score": 0.15190029421946305
     },
     {
       "type": "calendar",
@@ -2171,7 +2297,8 @@
       "strike": 161.60744021928934,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0283 at t equals 0.90 to 0.0281 at t equals 1.12",
-      "magnitude": 0.0002552722729651097
+      "magnitude": 0.0002552722729651097,
+      "severity_score": 0.14872757833364633
     },
     {
       "type": "calendar",
@@ -2179,7 +2306,8 @@
       "strike": 161.60744021928934,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0283 at t equals 1.34 to 0.0275 at t equals 1.56",
-      "magnitude": 0.0008486216991040255
+      "magnitude": 0.0008486216991040255,
+      "severity_score": 0.49442678894615677
     },
     {
       "type": "calendar",
@@ -2187,7 +2315,8 @@
       "strike": 161.60744021928934,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0613 at t equals 1.78 to 0.0286 at t equals 2.00",
-      "magnitude": 0.03266867946471902
+      "magnitude": 0.03266867946471902,
+      "severity_score": 19.03353438158114
     },
     {
       "type": "calendar",
@@ -2195,7 +2324,8 @@
       "strike": 171.60068621848586,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0297 at t equals 0.24 to 0.0295 at t equals 0.46",
-      "magnitude": 0.00023019761622290053
+      "magnitude": 0.00023019761622290053,
+      "severity_score": 0.13411849865766476
     },
     {
       "type": "calendar",
@@ -2203,7 +2333,8 @@
       "strike": 171.60068621848586,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0295 at t equals 0.46 to 0.0293 at t equals 0.68",
-      "magnitude": 0.00023456108233329068
+      "magnitude": 0.00023456108233329068,
+      "severity_score": 0.13666075575515987
     },
     {
       "type": "calendar",
@@ -2211,7 +2342,8 @@
       "strike": 171.60068621848586,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0297 at t equals 0.90 to 0.0295 at t equals 1.12",
-      "magnitude": 0.0002573908244210728
+      "magnitude": 0.0002573908244210728,
+      "severity_score": 0.14996189580949565
     },
     {
       "type": "calendar",
@@ -2219,7 +2351,8 @@
       "strike": 171.60068621848586,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0298 at t equals 1.34 to 0.0288 at t equals 1.56",
-      "magnitude": 0.0009723480296983424
+      "magnitude": 0.0009723480296983424,
+      "severity_score": 0.566512634038765
     },
     {
       "type": "calendar",
@@ -2227,7 +2360,8 @@
       "strike": 171.60068621848586,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0639 at t equals 1.78 to 0.0299 at t equals 2.00",
-      "magnitude": 0.0339197158276633
+      "magnitude": 0.0339197158276633,
+      "severity_score": 19.76241733665816
     },
     {
       "type": "calendar",
@@ -2235,7 +2369,8 @@
       "strike": 182.21188003905087,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0312 at t equals 0.24 to 0.0310 at t equals 0.46",
-      "magnitude": 0.00026917314491104946
+      "magnitude": 0.00026917314491104946,
+      "severity_score": 0.15682655045165744
     },
     {
       "type": "calendar",
@@ -2243,7 +2378,8 @@
       "strike": 182.21188003905087,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0310 at t equals 0.46 to 0.0308 at t equals 0.68",
-      "magnitude": 0.00020782394741367463
+      "magnitude": 0.00020782394741367463,
+      "severity_score": 0.12108307752953458
     },
     {
       "type": "calendar",
@@ -2251,7 +2387,8 @@
       "strike": 182.21188003905087,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0312 at t equals 0.90 to 0.0309 at t equals 1.12",
-      "magnitude": 0.0002579135555667439
+      "magnitude": 0.0002579135555667439,
+      "severity_score": 0.15026645116332316
     },
     {
       "type": "calendar",
@@ -2259,7 +2396,8 @@
       "strike": 182.21188003905087,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0313 at t equals 1.34 to 0.0302 at t equals 1.56",
-      "magnitude": 0.0010913394931882855
+      "magnitude": 0.0010913394931882855,
+      "severity_score": 0.6358398351549418
     },
     {
       "type": "calendar",
@@ -2267,7 +2405,8 @@
       "strike": 182.21188003905087,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0665 at t equals 1.78 to 0.0313 at t equals 2.00",
-      "magnitude": 0.03516876950145001
+      "magnitude": 0.03516876950145001,
+      "severity_score": 20.490145130802226
     },
     {
       "type": "calendar",
@@ -2275,7 +2414,8 @@
       "strike": 193.47923344020316,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0328 at t equals 0.24 to 0.0325 at t equals 0.46",
-      "magnitude": 0.00030844636137650205
+      "magnitude": 0.00030844636137650205,
+      "severity_score": 0.17970804208580055
     },
     {
       "type": "calendar",
@@ -2283,7 +2423,8 @@
       "strike": 193.47923344020316,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0325 at t equals 0.46 to 0.0323 at t equals 0.68",
-      "magnitude": 0.00018062812232446518
+      "magnitude": 0.00018062812232446518,
+      "severity_score": 0.10523815571596819
     },
     {
       "type": "calendar",
@@ -2291,7 +2432,8 @@
       "strike": 193.47923344020316,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0327 at t equals 0.90 to 0.0324 at t equals 1.12",
-      "magnitude": 0.0002572789258382807
+      "magnitude": 0.0002572789258382807,
+      "severity_score": 0.14989670108605654
     },
     {
       "type": "calendar",
@@ -2299,7 +2441,8 @@
       "strike": 193.47923344020316,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0329 at t equals 1.34 to 0.0317 at t equals 1.56",
-      "magnitude": 0.0012067711164505737
+      "magnitude": 0.0012067711164505737,
+      "severity_score": 0.7030929903507996
     },
     {
       "type": "calendar",
@@ -2307,7 +2450,8 @@
       "strike": 193.47923344020316,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0691 at t equals 1.78 to 0.0327 at t equals 2.00",
-      "magnitude": 0.036415076386666946
+      "magnitude": 0.036415076386666946,
+      "severity_score": 21.21627258187953
     },
     {
       "type": "calendar",
@@ -2315,7 +2459,8 @@
       "strike": 205.44332106438875,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0343 at t equals 0.24 to 0.0340 at t equals 0.46",
-      "magnitude": 0.000347971537033899
+      "magnitude": 0.000347971537033899,
+      "severity_score": 0.2027363310200245
     },
     {
       "type": "calendar",
@@ -2323,7 +2468,8 @@
       "strike": 205.44332106438875,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0340 at t equals 0.46 to 0.0338 at t equals 0.68",
-      "magnitude": 0.00015306467633990906
+      "magnitude": 0.00015306467633990906,
+      "severity_score": 0.08917904939707076
     },
     {
       "type": "calendar",
@@ -2331,7 +2477,8 @@
       "strike": 205.44332106438875,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0342 at t equals 0.90 to 0.0339 at t equals 1.12",
-      "magnitude": 0.00025579255344346935
+      "magnitude": 0.00025579255344346935,
+      "severity_score": 0.14903070587155673
     },
     {
       "type": "calendar",
@@ -2339,7 +2486,8 @@
       "strike": 205.44332106438875,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0344 at t equals 1.34 to 0.0331 at t equals 1.56",
-      "magnitude": 0.0013194944303766692
+      "magnitude": 0.0013194944303766692,
+      "severity_score": 0.7687682213785855
     },
     {
       "type": "calendar",
@@ -2347,7 +2495,8 @@
       "strike": 205.44332106438875,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0718 at t equals 1.78 to 0.0341 at t equals 2.00",
-      "magnitude": 0.037658482411821015
+      "magnitude": 0.037658482411821015,
+      "severity_score": 21.940709924245752
     },
     {
       "type": "calendar",
@@ -2355,7 +2504,8 @@
       "strike": 218.14722654982012,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0359 at t equals 0.24 to 0.0355 at t equals 0.46",
-      "magnitude": 0.00038771171288355666
+      "magnitude": 0.00038771171288355666,
+      "severity_score": 0.22588988407935218
     },
     {
       "type": "calendar",
@@ -2363,7 +2513,8 @@
       "strike": 218.14722654982012,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0355 at t equals 0.46 to 0.0354 at t equals 0.68",
-      "magnitude": 0.0001252027874917433
+      "magnitude": 0.0001252027874917433,
+      "severity_score": 0.07294606330713496
     },
     {
       "type": "calendar",
@@ -2371,7 +2522,8 @@
       "strike": 218.14722654982012,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0357 at t equals 0.90 to 0.0355 at t equals 1.12",
-      "magnitude": 0.00025367019723410156
+      "magnitude": 0.00025367019723410156,
+      "severity_score": 0.1477941716576596
     },
     {
       "type": "calendar",
@@ -2379,7 +2531,8 @@
       "strike": 218.14722654982012,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0361 at t equals 1.34 to 0.0346 at t equals 1.56",
-      "magnitude": 0.001430131286847082
+      "magnitude": 0.001430131286847082,
+      "severity_score": 0.833227833643411
     },
     {
       "type": "calendar",
@@ -2387,7 +2540,8 @@
       "strike": 218.14722654982012,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0745 at t equals 1.78 to 0.0356 at t equals 2.00",
-      "magnitude": 0.038899104640176665
+      "magnitude": 0.038899104640176665,
+      "severity_score": 22.663525361688297
     },
     {
       "type": "calendar",
@@ -2395,7 +2549,8 @@
       "strike": 231.6366976781092,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0375 at t equals 0.24 to 0.0371 at t equals 0.46",
-      "magnitude": 0.0004276365852808883
+      "magnitude": 0.0004276365852808883,
+      "severity_score": 0.24915104565386664
     },
     {
       "type": "calendar",
@@ -2403,7 +2558,8 @@
       "strike": 231.6366976781092,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0371 at t equals 0.46 to 0.0370 at t equals 0.68",
-      "magnitude": 9.709575351705968e-05
+      "magnitude": 9.709575351705968e-05,
+      "severity_score": 0.0565702499505172
     },
     {
       "type": "calendar",
@@ -2411,7 +2567,8 @@
       "strike": 231.6366976781092,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0373 at t equals 0.90 to 0.0370 at t equals 1.12",
-      "magnitude": 0.0002510663154775966
+      "magnitude": 0.0002510663154775966,
+      "severity_score": 0.14627708943241896
     },
     {
       "type": "calendar",
@@ -2419,7 +2576,8 @@
       "strike": 231.6366976781092,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0377 at t equals 1.34 to 0.0361 at t equals 1.56",
-      "magnitude": 0.0015391405606548572
+      "magnitude": 0.0015391405606548572,
+      "severity_score": 0.8967391782991455
     },
     {
       "type": "calendar",
@@ -2427,7 +2585,8 @@
       "strike": 231.6366976781092,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0772 at t equals 1.78 to 0.0370 at t equals 2.00",
-      "magnitude": 0.04013716935121927
+      "magnitude": 0.04013716935121927,
+      "severity_score": 23.38485072991142
     },
     {
       "type": "calendar",
@@ -2435,7 +2594,8 @@
       "strike": 245.960311115695,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0392 at t equals 0.24 to 0.0387 at t equals 0.46",
-      "magnitude": 0.00046772106027359595
+      "magnitude": 0.00046772106027359595,
+      "severity_score": 0.2725051954218512
     },
     {
       "type": "calendar",
@@ -2443,7 +2603,8 @@
       "strike": 245.960311115695,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0387 at t equals 0.46 to 0.0386 at t equals 0.68",
-      "magnitude": 6.878518540589379e-05
+      "magnitude": 6.878518540589379e-05,
+      "severity_score": 0.04007585286024274
     },
     {
       "type": "calendar",
@@ -2451,7 +2612,8 @@
       "strike": 245.960311115695,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0388 at t equals 0.90 to 0.0386 at t equals 1.12",
-      "magnitude": 0.0002480930565322767
+      "magnitude": 0.0002480930565322767,
+      "severity_score": 0.14454479944432175
     },
     {
       "type": "calendar",
@@ -2459,7 +2621,8 @@
       "strike": 245.960311115695,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0393 at t equals 1.34 to 0.0377 at t equals 1.56",
-      "magnitude": 0.0016468648153351029
+      "magnitude": 0.0016468648153351029,
+      "severity_score": 0.9595018408487899
     },
     {
       "type": "calendar",
@@ -2467,7 +2630,8 @@
       "strike": 245.960311115695,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0799 at t equals 1.78 to 0.0385 at t equals 2.00",
-      "magnitude": 0.041372934961064804
+      "magnitude": 0.041372934961064804,
+      "severity_score": 24.104836588169707
     },
     {
       "type": "calendar",
@@ -2475,7 +2639,8 @@
       "strike": 261.1696473423118,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0408 at t equals 0.24 to 0.0403 at t equals 0.46",
-      "magnitude": 0.0005079441998967829
+      "magnitude": 0.0005079441998967829,
+      "severity_score": 0.2959401344367531
     },
     {
       "type": "calendar",
@@ -2483,7 +2648,8 @@
       "strike": 261.1696473423118,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0403 at t equals 0.46 to 0.0403 at t equals 0.68",
-      "magnitude": 4.03039729279242e-05
+      "magnitude": 4.03039729279242e-05,
+      "severity_score": 0.023482034383006823
     },
     {
       "type": "calendar",
@@ -2491,7 +2657,8 @@
       "strike": 261.1696473423118,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0404 at t equals 0.90 to 0.0402 at t equals 1.12",
-      "magnitude": 0.000244832980346478
+      "magnitude": 0.000244832980346478,
+      "severity_score": 0.14264540304429318
     },
     {
       "type": "calendar",
@@ -2499,7 +2666,8 @@
       "strike": 261.1696473423118,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0410 at t equals 1.34 to 0.0392 at t equals 1.56",
-      "magnitude": 0.0017535628564235572
+      "magnitude": 0.0017535628564235572,
+      "severity_score": 1.0216666074319536
     },
     {
       "type": "calendar",
@@ -2507,7 +2675,8 @@
       "strike": 261.1696473423118,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0826 at t equals 1.78 to 0.0400 at t equals 2.00",
-      "magnitude": 0.04260665629950062
+      "magnitude": 0.04260665629950062,
+      "severity_score": 24.823631406239052
     },
     {
       "type": "calendar",
@@ -2515,7 +2684,8 @@
       "strike": 277.3194763964297,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0425 at t equals 0.24 to 0.0419 at t equals 0.46",
-      "magnitude": 0.0005482884224277118
+      "magnitude": 0.0005482884224277118,
+      "severity_score": 0.31944561917695796
     },
     {
       "type": "calendar",
@@ -2523,7 +2693,8 @@
       "strike": 277.3194763964297,
       "tenor": 0.6793333333333333,
       "description": "Total variance decreases from 0.0419 at t equals 0.46 to 0.0419 at t equals 0.68",
-      "magnitude": 1.1678410828393215e-05
+      "magnitude": 1.1678410828393215e-05,
+      "severity_score": 0.006804114450494015
     },
     {
       "type": "calendar",
@@ -2531,7 +2702,8 @@
       "strike": 277.3194763964297,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0420 at t equals 0.90 to 0.0418 at t equals 1.12",
-      "magnitude": 0.0002413476722360336
+      "magnitude": 0.0002413476722360336,
+      "severity_score": 0.14061478127330335
     },
     {
       "type": "calendar",
@@ -2539,7 +2711,8 @@
       "strike": 277.3194763964297,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0426 at t equals 1.34 to 0.0408 at t equals 1.56",
-      "magnitude": 0.001859432530985007
+      "magnitude": 0.001859432530985007,
+      "severity_score": 1.0833487483617201
     },
     {
       "type": "calendar",
@@ -2547,7 +2720,8 @@
       "strike": 277.3194763964297,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0854 at t equals 1.78 to 0.0415 at t equals 2.00",
-      "magnitude": 0.04383856921827431
+      "magnitude": 0.04383856921827431,
+      "severity_score": 25.54137259684688
     },
     {
       "type": "calendar",
@@ -2555,7 +2729,8 @@
       "strike": 294.4679551065523,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0441 at t equals 0.24 to 0.0435 at t equals 0.46",
-      "magnitude": 0.0005887388801948876
+      "magnitude": 0.0005887388801948876,
+      "severity_score": 0.34301299904285415
     },
     {
       "type": "calendar",
@@ -2563,7 +2738,8 @@
       "strike": 294.4679551065523,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0436 at t equals 0.90 to 0.0434 at t equals 1.12",
-      "magnitude": 0.0002376836476776431
+      "magnitude": 0.0002376836476776431,
+      "severity_score": 0.13848003513266433
     },
     {
       "type": "calendar",
@@ -2571,7 +2747,8 @@
       "strike": 294.4679551065523,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0443 at t equals 1.34 to 0.0424 at t equals 1.56",
-      "magnitude": 0.0019646268190422547
+      "magnitude": 0.0019646268190422547,
+      "severity_score": 1.1446373933663612
     },
     {
       "type": "calendar",
@@ -2579,7 +2756,8 @@
       "strike": 294.4679551065523,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0881 at t equals 1.78 to 0.0430 at t equals 2.00",
-      "magnitude": 0.04506888516116223
+      "magnitude": 0.04506888516116223,
+      "severity_score": 26.258183352067473
     },
     {
       "type": "calendar",
@@ -2587,7 +2765,8 @@
       "strike": 312.6768365186155,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0458 at t equals 0.24 to 0.0452 at t equals 0.46",
-      "magnitude": 0.0006292829680097853
+      "magnitude": 0.0006292829680097853,
+      "severity_score": 0.36663492995769587
     },
     {
       "type": "calendar",
@@ -2595,7 +2774,8 @@
       "strike": 312.6768365186155,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0453 at t equals 0.90 to 0.0450 at t equals 1.12",
-      "magnitude": 0.00023387645282673536
+      "magnitude": 0.00023387645282673536,
+      "severity_score": 0.13626187464134754
     },
     {
       "type": "calendar",
@@ -2603,7 +2783,8 @@
       "strike": 312.6768365186155,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0460 at t equals 1.34 to 0.0439 at t equals 1.56",
-      "magnitude": 0.0020692653001614866
+      "magnitude": 0.0020692653001614866,
+      "severity_score": 1.2056022122893368
     },
     {
       "type": "calendar",
@@ -2611,7 +2792,8 @@
       "strike": 312.6768365186155,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0909 at t equals 1.78 to 0.0446 at t equals 2.00",
-      "magnitude": 0.04629779050928484
+      "magnitude": 0.04629779050928484,
+      "severity_score": 26.974172261887396
     },
     {
       "type": "calendar",
@@ -2619,7 +2801,8 @@
       "strike": 332.0116922736547,
       "tenor": 0.45922222222222225,
       "description": "Total variance decreases from 0.0475 at t equals 0.24 to 0.0468 at t equals 0.46",
-      "magnitude": 0.0006699099307985942
+      "magnitude": 0.0006699099307985942,
+      "severity_score": 0.3903051457647082
     },
     {
       "type": "calendar",
@@ -2627,7 +2810,8 @@
       "strike": 332.0116922736547,
       "tenor": 0.8994444444444445,
       "description": "Total variance decreases from 0.0469 at t equals 0.68 to 0.0469 at t equals 0.90",
-      "magnitude": 1.791522164427961e-05
+      "magnitude": 1.791522164427961e-05,
+      "severity_score": 0.01043782585360695
     },
     {
       "type": "calendar",
@@ -2635,7 +2819,8 @@
       "strike": 332.0116922736547,
       "tenor": 1.1195555555555554,
       "description": "Total variance decreases from 0.0469 at t equals 0.90 to 0.0466 at t equals 1.12",
-      "magnitude": 0.00022995354931884537
+      "magnitude": 0.00022995354931884537,
+      "severity_score": 0.13397629958853016
     },
     {
       "type": "calendar",
@@ -2643,7 +2828,8 @@
       "strike": 332.0116922736547,
       "tenor": 1.5597777777777777,
       "description": "Total variance decreases from 0.0477 at t equals 1.34 to 0.0455 at t equals 1.56",
-      "magnitude": 0.0021734424107590286
+      "magnitude": 0.0021734424107590286,
+      "severity_score": 1.266298225988743
     },
     {
       "type": "calendar",
@@ -2651,7 +2837,8 @@
       "strike": 332.0116922736547,
       "tenor": 2.0,
       "description": "Total variance decreases from 0.0936 at t equals 1.78 to 0.0461 at t equals 2.00",
-      "magnitude": 0.0475254480898443
+      "magnitude": 0.0475254480898443,
+      "severity_score": 27.689434193231214
     }
   ],
   "violation_counts": {
@@ -2667,7 +2854,8 @@
       "rho": -0.2787733466484495,
       "m": -0.024665580579744276,
       "sigma": 0.29959988474002225,
-      "rmse": 0.00623420454573915
+      "rmse": 0.00623420454573915,
+      "regime": "calm"
     },
     {
       "tenor": 0.2391111111111111,
@@ -2676,7 +2864,8 @@
       "rho": -0.2776276343705759,
       "m": -0.026521782023483167,
       "sigma": 0.29927999996274707,
-      "rmse": 0.0027811029390511625
+      "rmse": 0.0027811029390511625,
+      "regime": "calm"
     },
     {
       "tenor": 0.45922222222222225,
@@ -2685,7 +2874,8 @@
       "rho": -0.2785543034457083,
       "m": -0.0235597674026066,
       "sigma": 0.30000871609530216,
-      "rmse": 0.00340557869990898
+      "rmse": 0.00340557869990898,
+      "regime": "calm"
     },
     {
       "tenor": 0.6793333333333333,
@@ -2694,7 +2884,8 @@
       "rho": -0.27606658811182677,
       "m": -0.024002908873935223,
       "sigma": 0.29992844228883714,
-      "rmse": 0.0034701852599942724
+      "rmse": 0.0034701852599942724,
+      "regime": "calm"
     },
     {
       "tenor": 0.8994444444444445,
@@ -2703,7 +2894,8 @@
       "rho": -0.27791258871016805,
       "m": -0.028382113149556337,
       "sigma": 0.29898640673973437,
-      "rmse": 0.0032395674591955323
+      "rmse": 0.0032395674591955323,
+      "regime": "calm"
     },
     {
       "tenor": 1.1195555555555554,
@@ -2712,7 +2904,8 @@
       "rho": -0.2776025175131452,
       "m": -0.019777744625207837,
       "sigma": 0.29781894888145893,
-      "rmse": 0.004886397187868119
+      "rmse": 0.004886397187868119,
+      "regime": "calm"
     },
     {
       "tenor": 1.3396666666666666,
@@ -2721,7 +2914,8 @@
       "rho": -0.2720214983813361,
       "m": -0.028788255983861425,
       "sigma": 0.2983164151831928,
-      "rmse": 0.00380933102312487
+      "rmse": 0.00380933102312487,
+      "regime": "calm"
     },
     {
       "tenor": 1.5597777777777777,
@@ -2730,7 +2924,8 @@
       "rho": -0.2964928334528058,
       "m": -0.0061349353012681235,
       "sigma": 0.3033230155926524,
-      "rmse": 0.003982878462330797
+      "rmse": 0.003982878462330797,
+      "regime": "calm"
     },
     {
       "tenor": 1.7798888888888889,
@@ -2739,7 +2934,8 @@
       "rho": -0.558887144593715,
       "m": -0.04456736131893963,
       "sigma": 0.15609306820745694,
-      "rmse": 0.0036821172648167266
+      "rmse": 0.0036821172648167266,
+      "regime": "stressed"
     },
     {
       "tenor": 2.0,
@@ -2748,7 +2944,8 @@
       "rho": -0.27555056703449593,
       "m": -0.03154121361349302,
       "sigma": 0.2996192041335188,
-      "rmse": 0.004441276259585463
+      "rmse": 0.004441276259585463,
+      "regime": "calm"
     }
   ],
   "metrics": {
@@ -2768,6 +2965,121 @@
       "medium": 43,
       "low": 134
     },
-    "total_violations": 186
+    "total_violations": 186,
+    "svi_per_tenor_rmse": [
+      0.00623420454573915,
+      0.0027811029390511625,
+      0.00340557869990898,
+      0.0034701852599942724,
+      0.0032395674591955323,
+      0.004886397187868119,
+      0.00380933102312487,
+      0.003982878462330797,
+      0.0036821172648167266,
+      0.004441276259585463
+    ],
+    "combined_per_tenor_rmse": [
+      0.012936568189260374,
+      0.002571684223456897,
+      0.0025793198822336005,
+      0.002542403289559958,
+      0.0031514508935605325,
+      0.0035159008653653434,
+      0.003293393966715516,
+      0.0036506587651750615,
+      0.0033464422206239035,
+      0.0041936514745350715
+    ],
+    "heston_rmse": 0.09447837017178039,
+    "heston_per_tenor_rmse": [
+      1.1758477705801371,
+      0.22879861384297265,
+      0.04138925440244325,
+      0.05177626413730377,
+      0.06063705149469354,
+      0.06471513895152023,
+      0.06765848713807764,
+      0.06960496828035963,
+      0.024601890469896665,
+      0.07549918899611566
+    ],
+    "resampler_mean_nudge": 0.010800784479555356,
+    "resampler_mean_rel_nudge": 0.058269961978476004,
+    "resampler_max_nudge": 0.08782542198502996,
+    "regime_train_accuracy": 0.9973958333333334,
+    "regime_test_accuracy": 1.0,
+    "regime_confusion": [
+      [
+        38,
+        0,
+        0
+      ],
+      [
+        0,
+        24,
+        0
+      ],
+      [
+        0,
+        0,
+        34
+      ]
+    ],
+    "regime_inferred": "calm",
+    "backtest_lead_lag": {
+      "1": 0.3696405179868674,
+      "2": 0.15590161651388004,
+      "3": 0.3773129340467609,
+      "4": 0.43871586847280575,
+      "5": 0.3732784583124008
+    },
+    "backtest_hit_rate": 0.375,
+    "stress_drift_summary": {
+      "vol_spike": 6,
+      "crash_skew": 48,
+      "inversion": 0,
+      "calm": 1
+    },
+    "mc_absolute_gap_mean": 2.003832912310167,
+    "mc_absolute_gap_max": 2.804689644855472,
+    "adversarial_precision": 1.0,
+    "adversarial_recall": 1.0,
+    "adversarial_f1": 1.0,
+    "compute_budget_seconds": {
+      "data": 0.00018715858459472656,
+      "svi": 0.04542899131774902,
+      "heston": 41.52892279624939,
+      "neural": 2.6469128131866455,
+      "scanner": 0.06416106224060059,
+      "stress": 0.18931794166564941,
+      "greeks": 0.06941485404968262,
+      "resampler": 0.14876413345336914,
+      "term_structure": 8.20159912109375e-05,
+      "mc": 0.012099981307983398,
+      "backtest": 1.904193639755249,
+      "regime": 0.004403829574584961,
+      "total": 47.73395299911499
+    }
+  },
+  "heston": {
+    "kappa": 3.036583361607722,
+    "theta": 0.025537480920395525,
+    "v0": 0.028662045628509623,
+    "rho": -0.3988970707348328,
+    "xi": 0.9497513772405304,
+    "rmse": 0.09447837017178039,
+    "per_tenor_rmse": [
+      1.1758477705801371,
+      0.22879861384297265,
+      0.04138925440244325,
+      0.05177626413730377,
+      0.06063705149469354,
+      0.06471513895152023,
+      0.06765848713807764,
+      0.06960496828035963,
+      0.024601890469896665,
+      0.07549918899611566
+    ],
+    "success": false
   }
 }

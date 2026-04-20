@@ -45,6 +45,10 @@
         <li><a href="#surface-section">Surface</a></li>
         <li><a href="#metrics-section">Metrics</a></li>
         <li><a href="#violations-section">Violations</a></li>
+        <li><a href="#term-structure-section">Term Structure</a></li>
+        <li><a href="#vega-section">Vega</a></li>
+        <li><a href="#heston-section">Heston</a></li>
+        <li><a href="#backtest-section">Backtest</a></li>
         <li><a href="#params-section">SVI Parameters</a></li>
         <li><a href="#controls-section">Display</a></li>
       </ul>
@@ -64,6 +68,11 @@
         <div class="header-meta-item">
           <span class="label">Options scanned</span>
           <span class="value" id="meta-n-options">loading</span>
+        </div>
+        <span class="header-meta-sep" aria-hidden="true"></span>
+        <div class="header-meta-item">
+          <span class="label">Inferred regime</span>
+          <span class="value" id="meta-regime"><span class="regime-badge regime-unknown" id="regime-badge">loading</span></span>
         </div>
       </div>
       <button type="button" id="theme-toggle" class="btn btn-ghost btn-size-sm" aria-pressed="true">
@@ -188,6 +197,7 @@
               <col class="col-strike" />
               <col class="col-tenor" />
               <col class="col-magnitude" />
+              <col class="col-severity-score" />
               <col class="col-description" />
             </colgroup>
             <thead>
@@ -197,6 +207,7 @@
                 <th scope="col" aria-sort="none"><button type="button" data-sort-key="strike">Strike <span class="sort-indicator" aria-hidden="true"><span class="up">&#9650;</span><span class="down">&#9660;</span></span></button></th>
                 <th scope="col" aria-sort="none"><button type="button" data-sort-key="tenor">Tenor <span class="sort-indicator" aria-hidden="true"><span class="up">&#9650;</span><span class="down">&#9660;</span></span></button></th>
                 <th scope="col" aria-sort="none"><button type="button" data-sort-key="magnitude">Magnitude <span class="sort-indicator" aria-hidden="true"><span class="up">&#9650;</span><span class="down">&#9660;</span></span></button></th>
+                <th scope="col" aria-sort="none"><button type="button" data-sort-key="severity_score">Score <span class="sort-indicator" aria-hidden="true"><span class="up">&#9650;</span><span class="down">&#9660;</span></span></button></th>
                 <th scope="col">Description</th>
               </tr>
             </thead>
@@ -255,6 +266,71 @@
       </div>
     </section>
 
+    <section id="term-structure-section" aria-labelledby="term-structure-heading">
+      <header class="section-header">
+        <h2 id="term-structure-heading">Term Structure</h2>
+        <p class="section-sub">ATM volatility, skew and kurtosis as a function of tenor.</p>
+      </header>
+      <div class="panel-grid">
+        <div class="panel-card">
+          <h3 class="panel-title">ATM volatility</h3>
+          <canvas id="ts-atm-canvas" width="400" height="180" role="img" aria-label="ATM volatility curve as a function of tenor" aria-describedby="ts-atm-table"></canvas>
+          <table class="visually-hidden" id="ts-atm-table"><caption>ATM volatility per tenor</caption><thead><tr><th scope="col">Tenor</th><th scope="col">ATM vol</th></tr></thead><tbody></tbody></table>
+        </div>
+        <div class="panel-card">
+          <h3 class="panel-title">ATM skew (d sigma / dk)</h3>
+          <canvas id="ts-skew-canvas" width="400" height="180" role="img" aria-label="ATM skew as a function of tenor" aria-describedby="ts-skew-table"></canvas>
+          <table class="visually-hidden" id="ts-skew-table"><caption>ATM skew per tenor</caption><thead><tr><th scope="col">Tenor</th><th scope="col">ATM skew</th></tr></thead><tbody></tbody></table>
+        </div>
+        <div class="panel-card">
+          <h3 class="panel-title">ATM kurtosis (d2 sigma / dk2)</h3>
+          <canvas id="ts-kurt-canvas" width="400" height="180" role="img" aria-label="ATM kurtosis as a function of tenor" aria-describedby="ts-kurt-table"></canvas>
+          <table class="visually-hidden" id="ts-kurt-table"><caption>ATM kurtosis per tenor</caption><thead><tr><th scope="col">Tenor</th><th scope="col">ATM kurtosis</th></tr></thead><tbody></tbody></table>
+        </div>
+      </div>
+    </section>
+
+    <section id="vega-section" aria-labelledby="vega-heading">
+      <header class="section-header">
+        <h2 id="vega-heading">Vega Surface</h2>
+        <p class="section-sub">Finite difference vega on the fitted SVI plus residual surface, by strike and tenor.</p>
+      </header>
+      <div class="panel-card">
+        <canvas id="vega-canvas" width="600" height="320" role="img" aria-label="Vega heatmap by strike and tenor" aria-describedby="vega-data-table"></canvas>
+        <table class="visually-hidden" id="vega-data-table"><caption>Vega values by strike and tenor</caption><thead><tr id="vega-thead"></tr></thead><tbody id="vega-tbody"></tbody></table>
+      </div>
+    </section>
+
+    <section id="heston-section" aria-labelledby="heston-heading">
+      <header class="section-header">
+        <h2 id="heston-heading">Heston Calibration</h2>
+        <p class="section-sub">Calibrated stochastic volatility parameters and per tenor RMSE versus SVI.</p>
+      </header>
+      <div class="panel-grid">
+        <div class="panel-card">
+          <h3 class="panel-title">Calibrated parameters</h3>
+          <dl class="kv-grid" id="heston-params"></dl>
+        </div>
+        <div class="panel-card">
+          <h3 class="panel-title">RMSE by tenor</h3>
+          <canvas id="heston-rmse-canvas" width="400" height="220" role="img" aria-label="Per tenor RMSE for Heston and SVI" aria-describedby="heston-rmse-table"></canvas>
+          <table class="visually-hidden" id="heston-rmse-table"><caption>RMSE per tenor for Heston and SVI</caption><thead><tr><th scope="col">Tenor</th><th scope="col">SVI</th><th scope="col">Heston</th></tr></thead><tbody></tbody></table>
+        </div>
+      </div>
+    </section>
+
+    <section id="backtest-section" aria-labelledby="backtest-heading">
+      <header class="section-header">
+        <h2 id="backtest-heading">Backtest Lead Lag</h2>
+        <p class="section-sub">Correlation between daily violation count and the realised log return at horizons one to five days.</p>
+      </header>
+      <div class="panel-card">
+        <canvas id="backtest-canvas" width="600" height="220" role="img" aria-label="Backtest lead lag correlation" aria-describedby="backtest-table"></canvas>
+        <p class="kv-summary" id="backtest-summary"></p>
+        <table class="visually-hidden" id="backtest-table"><caption>Lead lag correlation by horizon</caption><thead><tr><th scope="col">Horizon (days)</th><th scope="col">Correlation</th></tr></thead><tbody></tbody></table>
+      </div>
+    </section>
+
     <section id="controls-section" aria-labelledby="controls-heading">
       <header class="section-header">
         <h2 id="controls-heading">Display Controls</h2>
@@ -308,6 +384,7 @@
   <script type="module" src="js/controls.js"></script>
   <script type="module" src="js/violations-table.js"></script>
   <script type="module" src="js/surface.js"></script>
+  <script type="module" src="js/panels.js"></script>
   <script type="module" src="js/main.js"></script>
 </body>
 </html>
