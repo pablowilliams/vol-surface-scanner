@@ -1,0 +1,21 @@
+fit:
+  method: SLSQP
+  maxiter: 400
+  ftol: 1.0e-9
+bounds:
+  a_min: -1.0
+  a_max: 1.0
+  b_min: 0.0
+  b_max: 5.0
+  rho_min: -0.999
+  rho_max: 0.999
+  m_min: -1.5
+  m_max: 1.5
+  sigma_min: 0.01
+  sigma_max: 2.0
+initial:
+  a: 0.02
+  b: 0.1
+  rho: -0.3
+  m: 0.0
+  sigma: 0.3

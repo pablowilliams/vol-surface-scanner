@@ -1,0 +1,30 @@
+{
+  "meta": {
+    "generated": "2026-04-20T13:43:19Z",
+    "n_options": 250,
+    "seed": 42,
+    "forward": 100.0,
+    "n_tenors": 10,
+    "n_strikes": 25,
+    "quick_mode": false
+  },
+  "metrics": {
+    "svi_rmse": 0.004102059394392187,
+    "svi_mae": 0.0032941545883279372,
+    "svi_r2": 0.9998793563669394,
+    "residual_rmse": 0.027632495388388634,
+    "combined_rmse": 0.005121888371464217,
+    "combined_improvement": -0.0010198289770720296,
+    "violation_counts": {
+      "butterfly": 0,
+      "calendar": 186,
+      "vertical": 0
+    },
+    "violation_severity": {
+      "high": 9,
+      "medium": 43,
+      "low": 134
+    },
+    "total_violations": 186
+  }
+}

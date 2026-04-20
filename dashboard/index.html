@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Volatility Surface Arbitrage Dashboard</title>
+  <meta name="description" content="Neural volatility surface arbitrage scanner dashboard by Pablo Williams, UCL MSc Business Analytics." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://esm.sh/three@0.160.0",
+        "three/addons/": "https://esm.sh/three@0.160.0/examples/jsm/"
+      }
+    }
+  </script>
+</head>
+<body>
+  <a href="#main" class="skip-link">Skip to main content</a>
+
+  <div id="status-polite" role="status" aria-live="polite" aria-atomic="true" class="visually-hidden"></div>
+  <div id="status-assertive" role="alert" aria-live="assertive" aria-atomic="true" class="visually-hidden"></div>
+
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true">VS</span>
+      <div class="brand-text">
+        <p class="brand-title">Vol Surface Scanner</p>
+        <p class="brand-sub">Neural arbitrage detection</p>
+      </div>
+    </div>
+    <nav aria-label="Primary">
+      <ul class="nav-list">
+        <li><a href="#surface-section">Surface</a></li>
+        <li><a href="#metrics-section">Metrics</a></li>
+        <li><a href="#violations-section">Violations</a></li>
+        <li><a href="#params-section">SVI Parameters</a></li>
+        <li><a href="#controls-section">Display</a></li>
+      </ul>
+    </nav>
+    <div class="header-actions">
+      <button type="button" id="theme-toggle" class="btn btn-ghost" aria-pressed="true">
+        <span class="btn-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="16" height="16" focusable="false" aria-hidden="true"><path fill="currentColor" d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+        </span>
+        <span class="btn-label" id="theme-toggle-label">Dark</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+    <h1 id="page-title">Volatility Surface Arbitrage Dashboard</h1>
+    <p class="page-lede">
+      A reproducible pipeline that fits a stochastic volatility inspired
+      parametric surface, trains a small neural residual, and scans the joint
+      model for static arbitrage violations. Data shown is synthetic and
+      deterministic under seed forty two.
+    </p>
+
+    <section id="surface-section" aria-labelledby="surface-heading">
+      <header class="section-header">
+        <h2 id="surface-heading">Volatility Surface</h2>
+        <p class="section-sub">Strike by tenor by implied volatility, rendered with Three.js.</p>
+      </header>
+      <div class="surface-card">
+        <div id="canvas-holder" class="canvas-holder">
+          <div
+            id="surface-canvas"
+            class="surface-canvas"
+            role="img"
+            aria-label="Three dimensional volatility surface, strike by expiry by implied volatility"
+            aria-describedby="surface-summary"
+            tabindex="0"
+          ></div>
+          <div id="surface-loading" class="loading" aria-hidden="true">
+            <div class="skeleton skeleton-surface"></div>
+          </div>
+        </div>
+        <p id="surface-summary" class="visually-hidden">
+          Loading surface summary.
+        </p>
+        <div class="canvas-controls">
+          <button type="button" id="toggle-data-table" class="btn btn-secondary" aria-expanded="false" aria-controls="surface-data-table">
+            <span class="btn-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="14" height="14" focusable="false" aria-hidden="true"><path fill="currentColor" d="M3 5h18v2H3zm0 4h18v2H3zm0 4h18v2H3zm0 4h18v2H3z"/></svg>
+            </span>
+            <span class="btn-label">Show data table</span>
+          </button>
+          <p class="canvas-help" id="canvas-help">
+            Focus the surface and use arrow keys to rotate, plus or minus to
+            zoom, and Home to reset the view.
+          </p>
+        </div>
+        <div id="surface-data-table" class="surface-data-table" hidden>
+          <table aria-describedby="surface-data-caption">
+            <caption id="surface-data-caption">Implied volatility by strike and tenor.</caption>
+            <thead>
+              <tr id="surface-thead-row"></tr>
+            </thead>
+            <tbody id="surface-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="metrics-section" aria-labelledby="metrics-heading">
+      <header class="section-header">
+        <h2 id="metrics-heading">Key Metrics</h2>
+        <p class="section-sub">Captured directly from the pipeline run.</p>
+      </header>
+      <ul class="metric-grid" id="metric-grid"></ul>
+    </section>
+
+    <section id="violations-section" aria-labelledby="violations-heading">
+      <header class="section-header">
+        <h2 id="violations-heading">Arbitrage Violations</h2>
+        <p class="section-sub">Static no arbitrage checks: butterfly, calendar, and vertical spread.</p>
+      </header>
+      <div class="table-card">
+        <div class="table-controls">
+          <div class="filter-group">
+            <label for="violation-filter">Filter by type</label>
+            <select id="violation-filter" aria-describedby="violation-filter-help">
+              <option value="all">All</option>
+              <option value="butterfly">Butterfly</option>
+              <option value="calendar">Calendar</option>
+              <option value="vertical">Vertical</option>
+            </select>
+            <span id="violation-filter-help" class="help-text">Filters the table below by violation type.</span>
+          </div>
+        </div>
+        <div id="violations-empty" class="empty-state" hidden>
+          <span class="empty-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="20" height="20" focusable="false" aria-hidden="true"><path fill="currentColor" d="M9 16.2l-3.5-3.6L4 14.1 9 19 20 8l-1.5-1.5z"/></svg>
+          </span>
+          <p>No static arbitrage violations detected in the current view.</p>
+        </div>
+        <div class="table-wrap">
+          <table id="violations-table" aria-describedby="violations-caption">
+            <caption id="violations-caption">Arbitrage violations flagged by the scanner.</caption>
+            <thead>
+              <tr>
+                <th scope="col" aria-sort="none"><button type="button" data-sort-key="type">Type</button></th>
+                <th scope="col" aria-sort="none"><button type="button" data-sort-key="severity">Severity</button></th>
+                <th scope="col" aria-sort="none"><button type="button" data-sort-key="strike">Strike</button></th>
+                <th scope="col" aria-sort="none"><button type="button" data-sort-key="tenor">Tenor</button></th>
+                <th scope="col" aria-sort="none"><button type="button" data-sort-key="magnitude">Magnitude</button></th>
+                <th scope="col">Description</th>
+              </tr>
+            </thead>
+            <tbody id="violations-tbody"></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <section id="params-section" aria-labelledby="params-heading">
+      <header class="section-header">
+        <h2 id="params-heading">SVI Parameters</h2>
+        <p class="section-sub">Inspect the fitted slice that drives a preview curve.</p>
+      </header>
+      <div class="param-card">
+        <div class="slice-selector">
+          <label for="slice-select">Tenor slice</label>
+          <select id="slice-select" aria-describedby="slice-help"></select>
+          <span id="slice-help" class="help-text">Select a tenor to view its fitted raw SVI parameters.</span>
+        </div>
+        <div class="slider-grid">
+          <div class="slider-row">
+            <label for="svi-a" id="svi-a-label">Parameter a (level)</label>
+            <input type="range" id="svi-a" min="-0.5" max="0.5" step="0.001" value="0" aria-describedby="help-a" aria-valuetext="0.000" />
+            <input type="number" id="svi-a-num" min="-0.5" max="0.5" step="0.001" value="0" aria-labelledby="svi-a-label" />
+            <span id="help-a" class="help-text">Shifts overall variance level</span>
+          </div>
+          <div class="slider-row">
+            <label for="svi-b" id="svi-b-label">Parameter b (slope)</label>
+            <input type="range" id="svi-b" min="0" max="2" step="0.001" value="0.08" aria-describedby="help-b" aria-valuetext="0.080" />
+            <input type="number" id="svi-b-num" min="0" max="2" step="0.001" value="0.08" aria-labelledby="svi-b-label" />
+            <span id="help-b" class="help-text">Controls wing steepness, non negative</span>
+          </div>
+          <div class="slider-row">
+            <label for="svi-rho" id="svi-rho-label">Rho (correlation)</label>
+            <input type="range" id="svi-rho" min="-1" max="1" step="0.01" value="-0.3" aria-describedby="help-rho" aria-valuetext="negative 0.30" />
+            <input type="number" id="svi-rho-num" min="-1" max="1" step="0.01" value="-0.30" aria-labelledby="svi-rho-label" />
+            <span id="help-rho" class="help-text">Correlation parameter, range negative 1 to 1</span>
+          </div>
+          <div class="slider-row">
+            <label for="svi-m" id="svi-m-label">m (shift)</label>
+            <input type="range" id="svi-m" min="-1" max="1" step="0.01" value="0" aria-describedby="help-m" aria-valuetext="0.00" />
+            <input type="number" id="svi-m-num" min="-1" max="1" step="0.01" value="0.00" aria-labelledby="svi-m-label" />
+            <span id="help-m" class="help-text">Horizontal translation of the smile</span>
+          </div>
+          <div class="slider-row">
+            <label for="svi-sigma" id="svi-sigma-label">Sigma (curvature)</label>
+            <input type="range" id="svi-sigma" min="0.01" max="2" step="0.01" value="0.3" aria-describedby="help-sigma" aria-valuetext="0.30" />
+            <input type="number" id="svi-sigma-num" min="0.01" max="2" step="0.01" value="0.30" aria-labelledby="svi-sigma-label" />
+            <span id="help-sigma" class="help-text">Curvature of the minimum, positive</span>
+          </div>
+        </div>
+        <div class="slice-preview">
+          <canvas id="slice-canvas" width="480" height="220" aria-label="Preview of the SVI slice total variance curve" role="img"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <section id="controls-section" aria-labelledby="controls-heading">
+      <header class="section-header">
+        <h2 id="controls-heading">Display Controls</h2>
+        <p class="section-sub">Customise the dashboard presentation.</p>
+      </header>
+      <div class="controls-card">
+        <div class="control-row">
+          <label for="expiry-select">Expiry selector</label>
+          <select id="expiry-select" aria-describedby="expiry-help"></select>
+          <span id="expiry-help" class="help-text">Filters the surface overlay to the chosen expiry.</span>
+        </div>
+        <div class="control-row">
+          <label for="moneyness-min">Moneyness minimum</label>
+          <input type="range" id="moneyness-min" min="-2" max="2" step="0.1" value="-1.2" aria-describedby="moneyness-help" aria-valuetext="negative 1.20" />
+          <label for="moneyness-max">Moneyness maximum</label>
+          <input type="range" id="moneyness-max" min="-2" max="2" step="0.1" value="1.2" aria-describedby="moneyness-help" aria-valuetext="1.20" />
+          <span id="moneyness-help" class="help-text">Range of log moneyness to include.</span>
+        </div>
+        <div class="control-row">
+          <button type="button" id="play-toggle" class="btn btn-secondary" aria-pressed="false">
+            <span class="btn-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="14" height="14" focusable="false" aria-hidden="true"><path fill="currentColor" d="M8 5v14l11-7z"/></svg>
+            </span>
+            <span class="btn-label">Play auto rotate</span>
+          </button>
+          <button type="button" id="export-json" class="btn btn-primary">
+            <span class="btn-icon" aria-hidden="true">
+              <svg viewBox="0 0 24 24" width="14" height="14" focusable="false" aria-hidden="true"><path fill="currentColor" d="M5 20h14v-2H5v2zm7-18l-5 5h3v6h4v-6h3l-5-5z"/></svg>
+            </span>
+            <span class="btn-label">Export bundle JSON</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section id="error-section" class="error-card" hidden aria-labelledby="error-heading">
+      <h2 id="error-heading">Data error</h2>
+      <p id="error-body">No data available.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Pablo Williams, UCL MSc Business Analytics. MIT Licence.</p>
+    <p><a href="https://github.com/" rel="noopener">View project on GitHub</a></p>
+  </footer>
+
+  <script type="module" src="js/live-region.js"></script>
+  <script type="module" src="js/controls.js"></script>
+  <script type="module" src="js/violations-table.js"></script>
+  <script type="module" src="js/surface.js"></script>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

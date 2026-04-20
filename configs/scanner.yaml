@@ -1,0 +1,19 @@
+butterfly:
+  tolerance: 1.0e-6
+  severity_bands:
+    low: 1.0e-5
+    medium: 1.0e-3
+    high: 1.0e-1
+calendar:
+  tolerance: 1.0e-6
+  severity_bands:
+    low: 1.0e-5
+    medium: 1.0e-3
+    high: 1.0e-1
+vertical:
+  tolerance: 1.0e-6
+  severity_bands:
+    low: 1.0e-5
+    medium: 1.0e-3
+    high: 1.0e-1
+k_grid_points: 41

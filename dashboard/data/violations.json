@@ -1,0 +1,1497 @@
+{
+  "violations": [
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 30.119421191220212,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0724 at t equals 0.24 to 0.0715 at t equals 0.46",
+      "magnitude": 0.0009127915862130048
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 30.119421191220212,
+      "tenor": 0.8994444444444445,
+      "description": "Total variance decreases from 0.0716 at t equals 0.68 to 0.0708 at t equals 0.90",
+      "magnitude": 0.000832821369259773
+    },
+    {
+      "type": "calendar",
+      "severity": "high",
+      "strike": 30.119421191220212,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.2266 at t equals 1.78 to 0.0681 at t equals 2.00",
+      "magnitude": 0.15845995204015184
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 31.981902181630396,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0694 at t equals 0.24 to 0.0685 at t equals 0.46",
+      "magnitude": 0.000847132349799426
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 31.981902181630396,
+      "tenor": 0.8994444444444445,
+      "description": "Total variance decreases from 0.0686 at t equals 0.68 to 0.0679 at t equals 0.90",
+      "magnitude": 0.0007576414539235549
+    },
+    {
+      "type": "calendar",
+      "severity": "high",
+      "strike": 31.981902181630396,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.2167 at t equals 1.78 to 0.0654 at t equals 2.00",
+      "magnitude": 0.15133021929648938
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 33.95955256449391,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0663 at t equals 0.24 to 0.0656 at t equals 0.46",
+      "magnitude": 0.0007816903741991732
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 33.95955256449391,
+      "tenor": 0.8994444444444445,
+      "description": "Total variance decreases from 0.0656 at t equals 0.68 to 0.0650 at t equals 0.90",
+      "magnitude": 0.0006826412386840702
+    },
+    {
+      "type": "calendar",
+      "severity": "high",
+      "strike": 33.95955256449391,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.2068 at t equals 1.78 to 0.0626 at t equals 2.00",
+      "magnitude": 0.14419952805197156
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 36.05949401730783,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0633 at t equals 0.24 to 0.0626 at t equals 0.46",
+      "magnitude": 0.0007165060341186025
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 36.05949401730783,
+      "tenor": 0.8994444444444445,
+      "description": "Total variance decreases from 0.0627 at t equals 0.68 to 0.0621 at t equals 0.90",
+      "magnitude": 0.0006078448430772293
+    },
+    {
+      "type": "calendar",
+      "severity": "high",
+      "strike": 36.05949401730783,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.1970 at t equals 1.78 to 0.0599 at t equals 2.00",
+      "magnitude": 0.13706780265626076
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 38.28928859751121,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0603 at t equals 0.24 to 0.0597 at t equals 0.46",
+      "magnitude": 0.0006516299697400044
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 38.28928859751121,
+      "tenor": 0.8994444444444445,
+      "description": "Total variance decreases from 0.0597 at t equals 0.68 to 0.0592 at t equals 0.90",
+      "magnitude": 0.0005332805186649414
+    },
+    {
+      "type": "calendar",
+      "severity": "high",
+      "strike": 38.28928859751121,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.1871 at t equals 1.78 to 0.0572 at t equals 2.00",
+      "magnitude": 0.12993497827985948
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 40.656965974059915,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0574 at t equals 0.24 to 0.0568 at t equals 0.46",
+      "magnitude": 0.0005871264253967043
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 40.656965974059915,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0568 at t equals 0.46 to 0.0567 at t equals 0.68",
+      "magnitude": 3.053571902108393e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 40.656965974059915,
+      "tenor": 0.8994444444444445,
+      "description": "Total variance decreases from 0.0567 at t equals 0.68 to 0.0563 at t equals 0.90",
+      "magnitude": 0.00045898143747333253
+    },
+    {
+      "type": "calendar",
+      "severity": "high",
+      "strike": 40.656965974059915,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.1773 at t equals 1.78 to 0.0545 at t equals 2.00",
+      "magnitude": 0.12280101637114499
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 43.17105234290797,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0544 at t equals 0.24 to 0.0539 at t equals 0.46",
+      "magnitude": 0.0005230779138241728
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 43.17105234290797,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0539 at t equals 0.46 to 0.0538 at t equals 0.68",
+      "magnitude": 6.486981004720505e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 43.17105234290797,
+      "tenor": 0.8994444444444445,
+      "description": "Total variance decreases from 0.0538 at t equals 0.68 to 0.0534 at t equals 0.90",
+      "magnitude": 0.00038498660512414906
+    },
+    {
+      "type": "calendar",
+      "severity": "high",
+      "strike": 43.17105234290797,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.1675 at t equals 1.78 to 0.0518 at t equals 2.00",
+      "magnitude": 0.11566593246098264
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 45.84060113052235,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0515 at t equals 0.24 to 0.0510 at t equals 0.46",
+      "magnitude": 0.0004595918234006763
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 45.84060113052235,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0510 at t equals 0.46 to 0.0509 at t equals 0.68",
+      "magnitude": 9.891151614747212e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 45.84060113052235,
+      "tenor": 0.8994444444444445,
+      "description": "Total variance decreases from 0.0509 at t equals 0.68 to 0.0506 at t equals 0.90",
+      "magnitude": 0.00031134188264385354
+    },
+    {
+      "type": "calendar",
+      "severity": "high",
+      "strike": 45.84060113052235,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.1577 at t equals 1.78 to 0.0492 at t equals 2.00",
+      "magnitude": 0.10852984621538131
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 48.67522559599717,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0485 at t equals 0.24 to 0.0481 at t equals 0.46",
+      "magnitude": 0.0003968099085391516
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 48.67522559599717,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0481 at t equals 0.46 to 0.0480 at t equals 0.68",
+      "magnitude": 0.00013259360803274944
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 48.67522559599717,
+      "tenor": 0.8994444444444445,
+      "description": "Total variance decreases from 0.0480 at t equals 0.68 to 0.0478 at t equals 0.90",
+      "magnitude": 0.00023810106121058272
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 48.67522559599717,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0481 at t equals 1.12 to 0.0481 at t equals 1.34",
+      "magnitude": 1.6742671902728046e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "high",
+      "strike": 48.67522559599717,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.1479 at t equals 1.78 to 0.0465 at t equals 2.00",
+      "magnitude": 0.1013930723385973
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 51.68513344916993,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0456 at t equals 0.24 to 0.0453 at t equals 0.46",
+      "magnitude": 0.00033492210264766953
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 51.68513344916993,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0453 at t equals 0.46 to 0.0451 at t equals 0.68",
+      "magnitude": 0.00016582778957837524
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 51.68513344916993,
+      "tenor": 0.8994444444444445,
+      "description": "Total variance decreases from 0.0451 at t equals 0.68 to 0.0450 at t equals 0.90",
+      "magnitude": 0.0001653268610561781
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 51.68513344916993,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0454 at t equals 1.12 to 0.0453 at t equals 1.34",
+      "magnitude": 8.825714727318107e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 51.68513344916993,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.1382 at t equals 1.78 to 0.0439 at t equals 2.00",
+      "magnitude": 0.09425628821482003
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 54.88116360940264,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0428 at t equals 0.24 to 0.0425 at t equals 0.46",
+      "magnitude": 0.00027418685286053485
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 54.88116360940264,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0425 at t equals 0.46 to 0.0423 at t equals 0.68",
+      "magnitude": 0.00019849641390614486
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 54.88116360940264,
+      "tenor": 0.8994444444444445,
+      "description": "Total variance decreases from 0.0423 at t equals 0.68 to 0.0422 at t equals 0.90",
+      "magnitude": 9.309160492618207e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 54.88116360940264,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0426 at t equals 1.12 to 0.0424 at t equals 1.34",
+      "magnitude": 0.00015720985092301104
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 54.88116360940264,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.1285 at t equals 1.78 to 0.0414 at t equals 2.00",
+      "magnitude": 0.08712084958960287
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 58.274825237398964,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0400 at t equals 0.24 to 0.0398 at t equals 0.46",
+      "magnitude": 0.00021496128116325203
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 58.274825237398964,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0398 at t equals 0.46 to 0.0396 at t equals 0.68",
+      "magnitude": 0.00023044042207783638
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 58.274825237398964,
+      "tenor": 0.8994444444444445,
+      "description": "Total variance decreases from 0.0396 at t equals 0.68 to 0.0395 at t equals 0.90",
+      "magnitude": 2.1477151974862163e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 58.274825237398964,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0399 at t equals 1.12 to 0.0396 at t equals 1.34",
+      "magnitude": 0.00022281130525775295
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 58.274825237398964,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.1188 at t equals 1.78 to 0.0388 at t equals 2.00",
+      "magnitude": 0.07998940056802557
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 61.878339180614084,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0373 at t equals 0.24 to 0.0371 at t equals 0.46",
+      "magnitude": 0.00015774590995776272
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 61.878339180614084,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0371 at t equals 0.46 to 0.0368 at t equals 0.68",
+      "magnitude": 0.000261441743475338
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 61.878339180614084,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0372 at t equals 1.12 to 0.0369 at t equals 1.34",
+      "magnitude": 0.00028396405717136947
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 61.878339180614084,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.1092 at t equals 1.78 to 0.0364 at t equals 2.00",
+      "magnitude": 0.07286708841071812
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 65.70468198150569,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0346 at t equals 0.24 to 0.0345 at t equals 0.46",
+      "magnitude": 0.00010324996822196064
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 65.70468198150569,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0345 at t equals 0.46 to 0.0342 at t equals 0.68",
+      "magnitude": 0.0002911978663042228
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 65.70468198150569,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0346 at t equals 1.12 to 0.0343 at t equals 1.34",
+      "magnitude": 0.00033913248423515785
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 65.70468198150569,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0997 at t equals 1.78 to 0.0340 at t equals 2.00",
+      "magnitude": 0.06576406509166503
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 69.76763260710311,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0320 at t equals 0.24 to 0.0320 at t equals 0.46",
+      "magnitude": 5.2482391410035856e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 69.76763260710311,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0320 at t equals 0.46 to 0.0317 at t equals 0.68",
+      "magnitude": 0.00031928632052618394
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 69.76763260710311,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0321 at t equals 1.12 to 0.0318 at t equals 1.34",
+      "magnitude": 0.00038617393155491314
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 69.76763260710311,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0904 at t equals 1.78 to 0.0317 at t equals 2.00",
+      "magnitude": 0.05870081975238816
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 74.08182206817179,
+      "tenor": 0.2391111111111111,
+      "description": "Total variance decreases from 0.0296 at t equals 0.02 to 0.0296 at t equals 0.24",
+      "magnitude": 2.196705080691197e-06
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 74.08182206817179,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0296 at t equals 0.24 to 0.0296 at t equals 0.46",
+      "magnitude": 6.864292505438796e-06
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 74.08182206817179,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0296 at t equals 0.46 to 0.0293 at t equals 0.68",
+      "magnitude": 0.0003451191839170843
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 74.08182206817179,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0298 at t equals 1.12 to 0.0294 at t equals 1.34",
+      "magnitude": 0.0004221611141750868
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 74.08182206817179,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0812 at t equals 1.78 to 0.0295 at t equals 2.00",
+      "magnitude": 0.051719897324338876
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 78.66278610665535,
+      "tenor": 0.2391111111111111,
+      "description": "Total variance decreases from 0.0275 at t equals 0.02 to 0.0274 at t equals 0.24",
+      "magnitude": 3.249677395239514e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 78.66278610665535,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0275 at t equals 0.46 to 0.0271 at t equals 0.68",
+      "magnitude": 0.00036789681658219026
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 78.66278610665535,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0276 at t equals 1.12 to 0.0272 at t equals 1.34",
+      "magnitude": 0.00044331472356298057
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 78.66278610665535,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0725 at t equals 1.78 to 0.0275 at t equals 2.00",
+      "magnitude": 0.04491199645520949
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 83.52702114112721,
+      "tenor": 0.2391111111111111,
+      "description": "Total variance decreases from 0.0256 at t equals 0.02 to 0.0255 at t equals 0.24",
+      "magnitude": 5.588368491506526e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 83.52702114112721,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0256 at t equals 0.46 to 0.0252 at t equals 0.68",
+      "magnitude": 0.00038659329590671684
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 83.52702114112721,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0257 at t equals 1.12 to 0.0253 at t equals 1.34",
+      "magnitude": 0.00044534804418332186
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 83.52702114112721,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0643 at t equals 1.78 to 0.0258 at t equals 2.00",
+      "magnitude": 0.03847177844691761
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 88.69204367171577,
+      "tenor": 0.2391111111111111,
+      "description": "Total variance decreases from 0.0240 at t equals 0.02 to 0.0239 at t equals 0.24",
+      "magnitude": 7.057456221908759e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 88.69204367171577,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0240 at t equals 0.46 to 0.0236 at t equals 0.68",
+      "magnitude": 0.00040004416796783973
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 88.69204367171577,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0241 at t equals 1.12 to 0.0237 at t equals 1.34",
+      "magnitude": 0.00042470744521514586
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 88.69204367171577,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0572 at t equals 1.78 to 0.0244 at t equals 2.00",
+      "magnitude": 0.03279355190608854
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 94.17645335842487,
+      "tenor": 0.2391111111111111,
+      "description": "Total variance decreases from 0.0228 at t equals 0.02 to 0.0227 at t equals 0.24",
+      "magnitude": 7.536139172757e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 94.17645335842487,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0228 at t equals 0.46 to 0.0224 at t equals 0.68",
+      "magnitude": 0.00040721721439511416
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 94.17645335842487,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0229 at t equals 1.12 to 0.0226 at t equals 1.34",
+      "magnitude": 0.00038083742289207745
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 94.17645335842487,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0519 at t equals 1.78 to 0.0234 at t equals 2.00",
+      "magnitude": 0.028509468968681798
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 100.0,
+      "tenor": 0.2391111111111111,
+      "description": "Total variance decreases from 0.0221 at t equals 0.02 to 0.0220 at t equals 0.24",
+      "magnitude": 7.036390633308187e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 100.0,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0221 at t equals 0.46 to 0.0217 at t equals 0.68",
+      "magnitude": 0.00040762177000004673
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 100.0,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0222 at t equals 0.90 to 0.0222 at t equals 1.12",
+      "magnitude": 3.417377155375337e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 100.0,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0222 at t equals 1.12 to 0.0219 at t equals 1.34",
+      "magnitude": 0.00031803599062692894
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 100.0,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0489 at t equals 1.78 to 0.0228 at t equals 2.00",
+      "magnitude": 0.026127595596568055
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 106.18365465453596,
+      "tenor": 0.2391111111111111,
+      "description": "Total variance decreases from 0.0219 at t equals 0.02 to 0.0218 at t equals 0.24",
+      "magnitude": 5.7169129637331395e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 106.18365465453596,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0218 at t equals 0.46 to 0.0214 at t equals 0.68",
+      "magnitude": 0.0004015704756185484
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 106.18365465453596,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0220 at t equals 0.90 to 0.0219 at t equals 1.12",
+      "magnitude": 9.661741771963342e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 106.18365465453596,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0219 at t equals 1.12 to 0.0217 at t equals 1.34",
+      "magnitude": 0.00024429361738705774
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 106.18365465453596,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0481 at t equals 1.78 to 0.0226 at t equals 2.00",
+      "magnitude": 0.025446221784233357
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 112.74968515793755,
+      "tenor": 0.2391111111111111,
+      "description": "Total variance decreases from 0.0220 at t equals 0.02 to 0.0220 at t equals 0.24",
+      "magnitude": 3.805020885326582e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 112.74968515793755,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0220 at t equals 0.46 to 0.0216 at t equals 0.68",
+      "magnitude": 0.000390026679101603
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 112.74968515793755,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0222 at t equals 0.90 to 0.0221 at t equals 1.12",
+      "magnitude": 0.00014771538366915513
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 112.74968515793755,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0221 at t equals 1.12 to 0.0219 at t equals 1.34",
+      "magnitude": 0.00016731230552374798
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 112.74968515793755,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0486 at t equals 1.78 to 0.0228 at t equals 2.00",
+      "magnitude": 0.025802039697116835
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 119.72173631218101,
+      "tenor": 0.2391111111111111,
+      "description": "Total variance decreases from 0.0226 at t equals 0.02 to 0.0226 at t equals 0.24",
+      "magnitude": 1.5021601873270451e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 119.72173631218101,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0226 at t equals 0.24 to 0.0225 at t equals 0.46",
+      "magnitude": 8.343083873957324e-06
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 119.72173631218101,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0225 at t equals 0.46 to 0.0222 at t equals 0.68",
+      "magnitude": 0.00037418423660843733
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 119.72173631218101,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0228 at t equals 0.90 to 0.0226 at t equals 1.12",
+      "magnitude": 0.0001860382746892951
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 119.72173631218101,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0226 at t equals 1.12 to 0.0225 at t equals 1.34",
+      "magnitude": 9.160094242628009e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 119.72173631218101,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0225 at t equals 1.34 to 0.0224 at t equals 1.56",
+      "magnitude": 7.972024092878921e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 119.72173631218101,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0500 at t equals 1.78 to 0.0234 at t equals 2.00",
+      "magnitude": 0.026664762873460708
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 127.12491503214048,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0234 at t equals 0.24 to 0.0233 at t equals 0.46",
+      "magnitude": 4.281849591788317e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 127.12491503214048,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0233 at t equals 0.46 to 0.0230 at t equals 0.68",
+      "magnitude": 0.00035513004082591074
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 127.12491503214048,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0236 at t equals 0.90 to 0.0234 at t equals 1.12",
+      "magnitude": 0.00021309763220297984
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 127.12491503214048,
+      "tenor": 1.3396666666666666,
+      "description": "Total variance decreases from 0.0234 at t equals 1.12 to 0.0234 at t equals 1.34",
+      "magnitude": 1.8585857943613504e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 127.12491503214048,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0234 at t equals 1.34 to 0.0231 at t equals 1.56",
+      "magnitude": 0.0002641851549333926
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 127.12491503214048,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0519 at t equals 1.78 to 0.0241 at t equals 2.00",
+      "magnitude": 0.02775433585213176
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 134.9858807576003,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0244 at t equals 0.24 to 0.0243 at t equals 0.46",
+      "magnitude": 7.878981308821753e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 134.9858807576003,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0243 at t equals 0.46 to 0.0240 at t equals 0.68",
+      "magnitude": 0.00033371648369436013
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 134.9858807576003,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0246 at t equals 0.90 to 0.0244 at t equals 1.12",
+      "magnitude": 0.00023142884321361926
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 134.9858807576003,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0244 at t equals 1.34 to 0.0240 at t equals 1.56",
+      "magnitude": 0.00042963463633716517
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 134.9858807576003,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0540 at t equals 1.78 to 0.0251 at t equals 2.00",
+      "magnitude": 0.02894234423362598
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 143.33294145603404,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0256 at t equals 0.24 to 0.0255 at t equals 0.46",
+      "magnitude": 0.00011573918093562424
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 143.33294145603404,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0255 at t equals 0.46 to 0.0252 at t equals 0.68",
+      "magnitude": 0.00031056768553408554
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 143.33294145603404,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0258 at t equals 0.90 to 0.0255 at t equals 1.12",
+      "magnitude": 0.00024341850804881007
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 143.33294145603404,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0256 at t equals 1.34 to 0.0251 at t equals 1.56",
+      "magnitude": 0.000579861771727145
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 143.33294145603404,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0564 at t equals 1.78 to 0.0262 at t equals 2.00",
+      "magnitude": 0.03017189224451617
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 152.19615556186338,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0269 at t equals 0.24 to 0.0267 at t equals 0.46",
+      "magnitude": 0.00015338938198380253
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 152.19615556186338,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0267 at t equals 0.46 to 0.0265 at t equals 0.68",
+      "magnitude": 0.0002861291434841165
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 152.19615556186338,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0270 at t equals 0.90 to 0.0268 at t equals 1.12",
+      "magnitude": 0.000250922678477445
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 152.19615556186338,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0269 at t equals 1.34 to 0.0262 at t equals 1.56",
+      "magnitude": 0.0007185355807801039
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 152.19615556186338,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0588 at t equals 1.78 to 0.0274 at t equals 2.00",
+      "magnitude": 0.031417751096558325
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 161.60744021928934,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0283 at t equals 0.24 to 0.0281 at t equals 0.46",
+      "magnitude": 0.00019157766073453486
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 161.60744021928934,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0281 at t equals 0.46 to 0.0278 at t equals 0.68",
+      "magnitude": 0.0002607178426753086
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 161.60744021928934,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0283 at t equals 0.90 to 0.0281 at t equals 1.12",
+      "magnitude": 0.0002552722729651097
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 161.60744021928934,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0283 at t equals 1.34 to 0.0275 at t equals 1.56",
+      "magnitude": 0.0008486216991040255
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 161.60744021928934,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0613 at t equals 1.78 to 0.0286 at t equals 2.00",
+      "magnitude": 0.03266867946471902
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 171.60068621848586,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0297 at t equals 0.24 to 0.0295 at t equals 0.46",
+      "magnitude": 0.00023019761622290053
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 171.60068621848586,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0295 at t equals 0.46 to 0.0293 at t equals 0.68",
+      "magnitude": 0.00023456108233329068
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 171.60068621848586,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0297 at t equals 0.90 to 0.0295 at t equals 1.12",
+      "magnitude": 0.0002573908244210728
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 171.60068621848586,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0298 at t equals 1.34 to 0.0288 at t equals 1.56",
+      "magnitude": 0.0009723480296983424
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 171.60068621848586,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0639 at t equals 1.78 to 0.0299 at t equals 2.00",
+      "magnitude": 0.0339197158276633
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 182.21188003905087,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0312 at t equals 0.24 to 0.0310 at t equals 0.46",
+      "magnitude": 0.00026917314491104946
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 182.21188003905087,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0310 at t equals 0.46 to 0.0308 at t equals 0.68",
+      "magnitude": 0.00020782394741367463
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 182.21188003905087,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0312 at t equals 0.90 to 0.0309 at t equals 1.12",
+      "magnitude": 0.0002579135555667439
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 182.21188003905087,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0313 at t equals 1.34 to 0.0302 at t equals 1.56",
+      "magnitude": 0.0010913394931882855
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 182.21188003905087,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0665 at t equals 1.78 to 0.0313 at t equals 2.00",
+      "magnitude": 0.03516876950145001
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 193.47923344020316,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0328 at t equals 0.24 to 0.0325 at t equals 0.46",
+      "magnitude": 0.00030844636137650205
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 193.47923344020316,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0325 at t equals 0.46 to 0.0323 at t equals 0.68",
+      "magnitude": 0.00018062812232446518
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 193.47923344020316,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0327 at t equals 0.90 to 0.0324 at t equals 1.12",
+      "magnitude": 0.0002572789258382807
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 193.47923344020316,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0329 at t equals 1.34 to 0.0317 at t equals 1.56",
+      "magnitude": 0.0012067711164505737
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 193.47923344020316,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0691 at t equals 1.78 to 0.0327 at t equals 2.00",
+      "magnitude": 0.036415076386666946
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 205.44332106438875,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0343 at t equals 0.24 to 0.0340 at t equals 0.46",
+      "magnitude": 0.000347971537033899
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 205.44332106438875,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0340 at t equals 0.46 to 0.0338 at t equals 0.68",
+      "magnitude": 0.00015306467633990906
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 205.44332106438875,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0342 at t equals 0.90 to 0.0339 at t equals 1.12",
+      "magnitude": 0.00025579255344346935
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 205.44332106438875,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0344 at t equals 1.34 to 0.0331 at t equals 1.56",
+      "magnitude": 0.0013194944303766692
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 205.44332106438875,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0718 at t equals 1.78 to 0.0341 at t equals 2.00",
+      "magnitude": 0.037658482411821015
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 218.14722654982012,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0359 at t equals 0.24 to 0.0355 at t equals 0.46",
+      "magnitude": 0.00038771171288355666
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 218.14722654982012,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0355 at t equals 0.46 to 0.0354 at t equals 0.68",
+      "magnitude": 0.0001252027874917433
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 218.14722654982012,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0357 at t equals 0.90 to 0.0355 at t equals 1.12",
+      "magnitude": 0.00025367019723410156
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 218.14722654982012,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0361 at t equals 1.34 to 0.0346 at t equals 1.56",
+      "magnitude": 0.001430131286847082
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 218.14722654982012,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0745 at t equals 1.78 to 0.0356 at t equals 2.00",
+      "magnitude": 0.038899104640176665
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 231.6366976781092,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0375 at t equals 0.24 to 0.0371 at t equals 0.46",
+      "magnitude": 0.0004276365852808883
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 231.6366976781092,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0371 at t equals 0.46 to 0.0370 at t equals 0.68",
+      "magnitude": 9.709575351705968e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 231.6366976781092,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0373 at t equals 0.90 to 0.0370 at t equals 1.12",
+      "magnitude": 0.0002510663154775966
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 231.6366976781092,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0377 at t equals 1.34 to 0.0361 at t equals 1.56",
+      "magnitude": 0.0015391405606548572
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 231.6366976781092,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0772 at t equals 1.78 to 0.0370 at t equals 2.00",
+      "magnitude": 0.04013716935121927
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 245.960311115695,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0392 at t equals 0.24 to 0.0387 at t equals 0.46",
+      "magnitude": 0.00046772106027359595
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 245.960311115695,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0387 at t equals 0.46 to 0.0386 at t equals 0.68",
+      "magnitude": 6.878518540589379e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 245.960311115695,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0388 at t equals 0.90 to 0.0386 at t equals 1.12",
+      "magnitude": 0.0002480930565322767
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 245.960311115695,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0393 at t equals 1.34 to 0.0377 at t equals 1.56",
+      "magnitude": 0.0016468648153351029
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 245.960311115695,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0799 at t equals 1.78 to 0.0385 at t equals 2.00",
+      "magnitude": 0.041372934961064804
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 261.1696473423118,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0408 at t equals 0.24 to 0.0403 at t equals 0.46",
+      "magnitude": 0.0005079441998967829
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 261.1696473423118,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0403 at t equals 0.46 to 0.0403 at t equals 0.68",
+      "magnitude": 4.03039729279242e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 261.1696473423118,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0404 at t equals 0.90 to 0.0402 at t equals 1.12",
+      "magnitude": 0.000244832980346478
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 261.1696473423118,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0410 at t equals 1.34 to 0.0392 at t equals 1.56",
+      "magnitude": 0.0017535628564235572
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 261.1696473423118,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0826 at t equals 1.78 to 0.0400 at t equals 2.00",
+      "magnitude": 0.04260665629950062
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 277.3194763964297,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0425 at t equals 0.24 to 0.0419 at t equals 0.46",
+      "magnitude": 0.0005482884224277118
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 277.3194763964297,
+      "tenor": 0.6793333333333333,
+      "description": "Total variance decreases from 0.0419 at t equals 0.46 to 0.0419 at t equals 0.68",
+      "magnitude": 1.1678410828393215e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 277.3194763964297,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0420 at t equals 0.90 to 0.0418 at t equals 1.12",
+      "magnitude": 0.0002413476722360336
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 277.3194763964297,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0426 at t equals 1.34 to 0.0408 at t equals 1.56",
+      "magnitude": 0.001859432530985007
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 277.3194763964297,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0854 at t equals 1.78 to 0.0415 at t equals 2.00",
+      "magnitude": 0.04383856921827431
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 294.4679551065523,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0441 at t equals 0.24 to 0.0435 at t equals 0.46",
+      "magnitude": 0.0005887388801948876
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 294.4679551065523,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0436 at t equals 0.90 to 0.0434 at t equals 1.12",
+      "magnitude": 0.0002376836476776431
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 294.4679551065523,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0443 at t equals 1.34 to 0.0424 at t equals 1.56",
+      "magnitude": 0.0019646268190422547
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 294.4679551065523,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0881 at t equals 1.78 to 0.0430 at t equals 2.00",
+      "magnitude": 0.04506888516116223
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 312.6768365186155,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0458 at t equals 0.24 to 0.0452 at t equals 0.46",
+      "magnitude": 0.0006292829680097853
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 312.6768365186155,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0453 at t equals 0.90 to 0.0450 at t equals 1.12",
+      "magnitude": 0.00023387645282673536
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 312.6768365186155,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0460 at t equals 1.34 to 0.0439 at t equals 1.56",
+      "magnitude": 0.0020692653001614866
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 312.6768365186155,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0909 at t equals 1.78 to 0.0446 at t equals 2.00",
+      "magnitude": 0.04629779050928484
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 332.0116922736547,
+      "tenor": 0.45922222222222225,
+      "description": "Total variance decreases from 0.0475 at t equals 0.24 to 0.0468 at t equals 0.46",
+      "magnitude": 0.0006699099307985942
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 332.0116922736547,
+      "tenor": 0.8994444444444445,
+      "description": "Total variance decreases from 0.0469 at t equals 0.68 to 0.0469 at t equals 0.90",
+      "magnitude": 1.791522164427961e-05
+    },
+    {
+      "type": "calendar",
+      "severity": "low",
+      "strike": 332.0116922736547,
+      "tenor": 1.1195555555555554,
+      "description": "Total variance decreases from 0.0469 at t equals 0.90 to 0.0466 at t equals 1.12",
+      "magnitude": 0.00022995354931884537
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 332.0116922736547,
+      "tenor": 1.5597777777777777,
+      "description": "Total variance decreases from 0.0477 at t equals 1.34 to 0.0455 at t equals 1.56",
+      "magnitude": 0.0021734424107590286
+    },
+    {
+      "type": "calendar",
+      "severity": "medium",
+      "strike": 332.0116922736547,
+      "tenor": 2.0,
+      "description": "Total variance decreases from 0.0936 at t equals 1.78 to 0.0461 at t equals 2.00",
+      "magnitude": 0.0475254480898443
+    }
+  ],
+  "counts": {
+    "butterfly": 0,
+    "calendar": 186,
+    "vertical": 0
+  }
+}

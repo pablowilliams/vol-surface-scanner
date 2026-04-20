@@ -1,0 +1,13 @@
+seed: 42
+forward_price: 100.0
+risk_free_rate: 0.02
+dividend_yield: 0.0
+n_strikes: 25
+n_tenors: 10
+tenor_min_years: 0.019
+tenor_max_years: 2.0
+moneyness_min: -1.2
+moneyness_max: 1.2
+stress_mixture_probability: 0.35
+noise_sigma_iv: 0.004
+n_samples: 5000

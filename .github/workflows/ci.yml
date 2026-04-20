@@ -1,0 +1,49 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Cache pip
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ matrix.python-version }}-${{ hashFiles('requirements.txt') }}
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Ruff lint
+        run: ruff check .
+      - name: Pytest
+        env:
+          PYTHONPATH: ${{ github.workspace }}/src
+        run: pytest -q
+      - name: Pipeline smoke
+        env:
+          PYTHONPATH: ${{ github.workspace }}/src
+        run: python -m vol_scanner.pipeline.run --quick
+      - name: Dashes guard
+        run: |
+          set -e
+          if grep -nP "\xe2\x80\x93|\xe2\x80\x94" -r \
+            --include='*.py' --include='*.html' --include='*.md' --include='*.js' --include='*.css' \
+            .; then
+            echo 'Em or en dash detected' >&2
+            exit 1
+          fi
