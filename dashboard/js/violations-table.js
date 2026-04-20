@@ -1,4 +1,5 @@
-// Accessible sortable violations table.
+// Accessible sortable violations table with type filter, severity toggles,
+// and a result-count indicator.
 
 import { announcePolite } from "./live-region.js";
 
@@ -6,6 +7,7 @@ let data = [];
 let filtered = [];
 let sortKey = "severity";
 let sortDir = "descending";
+let severityFilters = new Set(); // empty means all severities
 
 const severityOrder = { low: 0, medium: 1, high: 2 };
 
@@ -24,21 +26,30 @@ function compare(a, b, key, dir) {
   return dir === "ascending" ? (av < bv ? -1 : 1) : (av < bv ? 1 : -1);
 }
 
+function severityIcon(level) {
+  if (level === "high") {
+    return `<svg viewBox="0 0 10 10" focusable="false" aria-hidden="true"><path d="M5 0.5 L9.5 8.5 L0.5 8.5 Z" fill="none" stroke="currentColor" stroke-width="1.1" stroke-linejoin="round"/><path d="M5 4 L5 6" stroke="currentColor" stroke-width="1.2" stroke-linecap="round"/><circle cx="5" cy="7.2" r="0.5" fill="currentColor"/></svg>`;
+  }
+  if (level === "medium") {
+    return `<svg viewBox="0 0 10 10" focusable="false" aria-hidden="true"><circle cx="5" cy="5" r="3.6" fill="none" stroke="currentColor" stroke-width="1.1"/><circle cx="5" cy="5" r="1.4" fill="currentColor"/></svg>`;
+  }
+  return `<svg viewBox="0 0 10 10" focusable="false" aria-hidden="true"><circle cx="5" cy="5" r="2" fill="currentColor"/></svg>`;
+}
+
 function severityChip(level) {
   const labels = { high: "High", medium: "Medium", low: "Low" };
-  const icons = {
-    high: "\u26A0\uFE0F",
-    medium: "\u25CE",
-    low: "\u2022",
-  };
-  return `<span class="severity-chip severity-${level}"><span aria-hidden="true">${icons[level] || ""}</span> ${labels[level] || level}</span>`;
+  return `<span class="severity-chip severity-${level}">${severityIcon(level)}<span>${labels[level] || level}</span></span>`;
 }
 
 function render() {
   const tbody = document.getElementById("violations-tbody");
   const empty = document.getElementById("violations-empty");
+  const count = document.getElementById("violation-result-count");
   if (!tbody) return;
   tbody.innerHTML = "";
+  if (count) {
+    count.innerHTML = `<strong>${filtered.length}</strong> ${filtered.length === 1 ? "row" : "rows"}`;
+  }
   if (filtered.length === 0) {
     if (empty) empty.hidden = false;
     return;
@@ -63,8 +74,12 @@ function render() {
 function applyFilterSort() {
   const f = document.getElementById("violation-filter");
   const selected = f ? f.value : "all";
-  filtered = selected === "all" ? [...data] : data.filter((v) => v.type === selected);
-  filtered.sort((a, b) => compare(a, b, sortKey, sortDir));
+  let out = selected === "all" ? [...data] : data.filter((v) => v.type === selected);
+  if (severityFilters.size > 0) {
+    out = out.filter((v) => severityFilters.has(v.severity));
+  }
+  out.sort((a, b) => compare(a, b, sortKey, sortDir));
+  filtered = out;
   render();
 }
 
@@ -98,6 +113,24 @@ function wireFilter() {
   });
 }
 
+function wireSeverityToggles() {
+  const buttons = document.querySelectorAll("[data-severity-filter]");
+  buttons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+      const level = btn.dataset.severityFilter;
+      const pressed = btn.getAttribute("aria-pressed") === "true";
+      const next = !pressed;
+      btn.setAttribute("aria-pressed", String(next));
+      if (next) severityFilters.add(level);
+      else severityFilters.delete(level);
+      applyFilterSort();
+      const active = Array.from(severityFilters);
+      const label = active.length === 0 ? "all severities" : active.join(", ");
+      announcePolite(`Severity filter ${label}. ${filtered.length} rows.`);
+    });
+  });
+}
+
 export function setViolations(rows) {
   data = rows.slice();
   // Default sort: severity descending.
@@ -110,3 +143,4 @@ export function setViolations(rows) {
 
 wireHeaders();
 wireFilter();
+wireSeverityToggles();
